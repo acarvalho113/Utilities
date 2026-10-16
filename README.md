@@ -47,6 +47,24 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
 *   **[usestrix/strix](https://github.com/usestrix/strix)**
     *   **O que é:** Uma ferramenta open-source de *penetration testing* automatizado movido a IA, projetada para encontrar e corrigir vulnerabilidades em aplicações.
     *   **Quando usar:** Para rodar varreduras de segurança contínuas na sua infraestrutura, APIs, ou pipelines CI/CD, obtendo tanto o diagnóstico quanto as correções sugeridas.
+*   **[MxCorpIn/Repolyze](https://github.com/MxCorpIn/Repolyze)**
+    *   **O que é:** Um analisador de repositórios GitHub movido a IA que avalia qualidade de código, arquitetura, vulnerabilidades de segurança e árvore de dependências.
+    *   **Quando usar:** Quando precisar fazer uma auditoria rápida em um projeto legado, entender a estrutura de um código de terceiros ou realizar um *code review* arquitetural automatizado.
+*   **[thruwire/foreman](https://github.com/thruwire/foreman)**
+    *   **O que é:** Um supervisor determinístico para agentes de código autônomos que monitora o trabalho em segundo plano, avaliando *git diffs* e logs em tempo real.
+    *   **Quando usar:** Para evitar que agentes de codificação entrem em *loop* infinito, saiam do rumo ou entreguem código sem testar, garantindo que o agente só pare quando a tarefa estiver realmente concluída.
+*   **[hydra-db/open-glean](https://github.com/hydra-db/open-glean)**
+    *   **O que é:** Um workspace de busca e IA open-source (alternativa *self-hosted* ao Glean) que unifica arquivos locais, notas e aplicativos conectados em uma única barra de pesquisa.
+    *   **Quando usar:** Quando quiser fazer perguntas em linguagem natural sobre a sua própria base de documentos e receber respostas precisas com todas as fontes e citações verificáveis.
+*   **[opendatalab/MinerU](https://github.com/opendatalab/MinerU)**
+    *   **O que é:** Uma ferramenta pesada de extração de dados que converte PDFs complexos, documentos escaneados, arquivos Word e slides em Markdown limpo e JSON estruturado.
+    *   **Quando usar:** Para preparar documentos complexos (com múltiplas colunas, tabelas e fórmulas matemáticas) em textos perfeitamente legíveis para alimentar sistemas de RAG e LLMs.
+*   **[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)**
+    *   **O que é:** Uma plataforma local e gratuita de geração e processamento de áudio com IA (alternativa open-source ao ElevenLabs), com suporte a clonagem de voz, dublagem, transcrição e audiobooks em 646 idiomas.
+    *   **Quando usar:** Quando precisar clonar vozes, dublar vídeos ou converter textos longos em áudio diretamente na sua máquina, sem pagar por caractere gerado e sem enviar áudios para a nuvem.
+*   **[vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)**
+    *   **O que é:** Um sistema de memória de longo prazo para agentes de IA que extrai fatos, experiências e modelos mentais para consolidar aprendizados entre diferentes sessões.
+    *   **Quando usar:** Para dar memória contínua aos seus agentes (via API ou MCP Server), permitindo que eles aprendam com erros passados e lembrem de todo o contexto sem começar do zero a cada nova conversa.
 
 ---
 
@@ -72,6 +90,34 @@ Listas massivas de ferramentas, serviços gratuitos, infraestrutura e APIs.
 *   **[restic/restic](https://github.com/restic/restic)**
     *   **O que é:** Um utilitário de backup via terminal escrito em Go, focado em ser rápido, criptografado de ponta a ponta e altamente seguro.
     *   **Quando usar:** Na hora de configurar rotinas de backup eficientes e incrementais de pastas ou bancos de dados locais para o seu servidor ou para a nuvem.
+
+---
+
+## 🚀 Alternativas SaaS, Backend & Infraestrutura de Apps
+
+Plataformas open-source para criar produtos completos, substituindo ferramentas SaaS caras (como Calendly, Retool, Contentful, Firebase e Zapier) e podendo rodar no seu próprio servidor.
+
+*   **[calcom/cal.com](https://github.com/calcom/cal.com)**
+    *   **O que é:** Uma plataforma completa de agendamento de compromissos e gestão de calendários (alternativa open-source direta ao Calendly).
+    *   **Quando usar:** Quando precisar gerenciar a agenda de um negócio, criar páginas de marcação de reuniões em equipe ou embutir fluxos de agendamento direto no seu produto sem pagar mensalidades por usuário.
+*   **[refinedev/refine](https://github.com/refinedev/refine)**
+    *   **O que é:** Um meta-framework baseado em React para construção rápida de ferramentas internas, dashboards administrativos, B2B e CRMs (alternativa ao Retool).
+    *   **Quando usar:** Para criar painéis administrativos completos e customizáveis em cima da sua API existente com total controle do código e sem custos por "construtor" ou usuário.
+*   **[payloadcms/payload](https://github.com/payloadcms/payload)**
+    *   **O que é:** Um Headless CMS e framework de aplicação moderno, construído de forma *code-first* com TypeScript, Node.js e React (alternativa a plataformas caras como Contentful).
+    *   **Quando usar:** Quando precisar de um painel de gestão de conteúdo (CMS) poderoso e flexível para alimentar sites, blogs ou aplicativos, mantendo controle total do banco de dados e da infraestrutura.
+*   **[supabase/supabase](https://github.com/supabase/supabase)**
+    *   **O que é:** A principal alternativa open-source ao Firebase, oferecendo banco de dados Postgres completo, autenticação (login), storage de arquivos, Edge Functions e APIs instantâneas.
+    *   **Quando usar:** Para subir todo o backend de um aplicativo rapidamente (seja na nuvem ou *self-hosted* via Docker) sem precisar programar a infraestrutura de banco, autenticação e upload do zero.
+*   **[umami-software/umami](https://github.com/umami-software/umami)**
+    *   **O que é:** Uma ferramenta de web analytics simples, rápida e focada em privacidade (alternativa leve ao Google Analytics e ao Plausible).
+    *   **Quando usar:** Para monitorar o tráfego, origens de acesso e conversões dos seus sites sem usar cookies invasivos, sem precisar de banners de LGPD/GDPR e sem vender os dados dos seus visitantes.
+*   **[triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev)**
+    *   **O que é:** Um framework open-source de *background jobs* e orquestração de tarefas longas diretamente no código (substituindo automações complexas do Zapier ou filas difíceis de manter).
+    *   **Quando usar:** Quando precisar rodar processos demorados (como chamadas encadeadas de IA, processamento de vídeos ou integrações com APIs) sem sofrer com limites de *timeout* de servidores serverless, contando com retentativas automáticas e painel de monitoramento.
+*   **[fleetbase/fleetbase](https://github.com/fleetbase/fleetbase)**
+    *   **O que é:** Um sistema operacional modular e open-source para logística e cadeia de suprimentos (*supply chain*), reunindo gestão de frotas, operações de armazém, *fulfillment* de e-commerce e contabilidade em uma única plataforma.
+    *   **Quando usar:** Quando precisar construir ou gerenciar operações logísticas, rastreamento de motoristas em tempo real, despacho automatizado de entregas e roteirização sem pagar taxas por entrega ou ficar preso a sistemas fechados.
 
 ---
 
@@ -101,3 +147,37 @@ Ferramentas visuais e de processamento de interface.
 *   **[danielgatis/REMBG](https://github.com/danielgatis/REMBG)**
     *   **O que é:** Uma utilidade simples e direta, baseada em IA, projetada estritamente para remover fundos de imagens.
     *   **Quando usar:** Para processar imagens de forma automatizada, gerando fotos de produtos ou recortes com fundo transparente em lote para lojas e painéis visuais.
+
+---
+
+## 🏠 Self-Hosted, Privacidade & Casa Inteligente
+
+Sistemas para rodar no seu próprio servidor ou máquina local, garantindo controle total dos seus dados, automação residencial e substituição de serviços pagos na nuvem.
+
+*   **[paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)**
+    *   **O que é:** Um sistema de gerenciamento de documentos que escaneia, extrai texto via OCR e organiza recibos, notas e contratos automaticamente com machine learning.
+    *   **Quando usar:** Para eliminar papelada física e ter um arquivo digital onde qualquer documento ou nota fiscal pode ser encontrado em segundos buscando por palavras-chave do conteúdo.
+*   **[karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)**
+    *   **O que é:** Um gerenciador de favoritos ("bookmark everything", antigo Hoarder) que salva links, notas, imagens e PDFs, aplicando etiquetas automáticas com IA (inclusive integrado ao Ollama).
+    *   **Quando usar:** Para guardar referências, artigos e vídeos da web sem correr o risco de perder o conteúdo caso o site original saia do ar (ele arquiva a página inteira e faz OCR em prints).
+*   **[dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)**
+    *   **O que é:** Uma implementação alternativa e super leve do servidor de senhas Bitwarden, escrita em Rust (inclui suporte nativo ao **Bitwarden Send**).
+    *   **Quando usar:** Para hospedar seu próprio cofre de senhas em um servidor modesto ou Raspberry Pi, liberando gratuitamente os recursos premium e o envio de arquivos/textos temporários criptografados que expiram sozinhos.
+*   **[anyproto/anytype-ts](https://github.com/anyproto/anytype-ts)**
+    *   **O que é:** Uma alternativa open-source ao Notion focada em privacidade (*local-first*), com criptografia ponta a ponta e estrutura de notas e tarefas baseada em grafos e objetos.
+    *   **Quando usar:** Quando quiser construir um segundo cérebro, wiki pessoal ou gerenciador de projetos que funcione 100% offline e sincronize direto entre seus aparelhos (P2P) sem depender da nuvem de terceiros.
+*   **[AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)**
+    *   **O que é:** Um servidor DNS local que atua como um bloqueador de anúncios e rastreadores para toda a sua rede doméstica.
+    *   **Quando usar:** Para bloquear propagandas e telemetria na casa inteira de uma só vez, protegendo inclusive aparelhos que não aceitam extensões de navegador, como Smart TVs e videogames.
+*   **[syncthing/syncthing](https://github.com/syncthing/syncthing)**
+    *   **O que é:** Uma ferramenta de sincronização contínua de arquivos ponto a ponto (P2P) e descentralizada.
+    *   **Quando usar:** Para manter pastas idênticas e sincronizadas entre seu computador, notebook e celular em tempo real sem precisar pagar ou confiar seus arquivos ao Google Drive, Dropbox ou OneDrive.
+*   **[home-assistant/core](https://github.com/home-assistant/core)**
+    *   **O que é:** A principal plataforma open-source de automação residencial, projetada para ser o cérebro da casa inteligente com controle local.
+    *   **Quando usar:** Para unificar lâmpadas, sensores, câmeras e fechaduras de marcas diferentes (Tuya, Sonoff, Zigbee, Philips) em um único painel que continua funcionando mesmo se a internet cair.
+*   **[advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf)**
+    *   **O que é:** Um servidor de mídia *self-hosted* desenvolvido especificamente para organizar e reproduzir audiobooks e podcasts.
+    *   **Quando usar:** Para criar o seu próprio "Audible particular", escutando seus livros em áudio pelo celular ou navegador com sincronização automática de progresso de leitura e busca de capas.
+*   **[Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)**
+    *   **O que é:** Uma aplicação web completa e hospedada localmente para manipular arquivos PDF (juntar, dividir, converter, comprimir, aplicar OCR e assinar).
+    *   **Quando usar:** Quando precisar editar ou converter contratos e documentos confidenciais sem fazer upload deles em sites públicos de terceiros (como iLovePDF).
