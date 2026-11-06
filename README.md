@@ -4,180 +4,341 @@ Este repositório serve como um índice pessoal de ferramentas, bibliotecas e li
 
 ---
 
+## ⚖️ Guia Rápido de Licenças (Para Projetos Pessoais vs. Comerciais / Micro-SaaS)
+
+Antes de integrar um repositório no seu código, verifique o tipo de licença:
+
+*   🟢 **MIT / Apache 2.0 / BSD / CC-BY:** Totalmente permissivas. Pode usar, modificar, integrar em código fechado e vender (*SaaS*, aplicações, APIs) sem ter de partilhar o seu próprio código. A Apache 2.0 exige apenas que preserve os avisos de direitos de autor originais.
+*   🟡 **MPL 2.0 (Mozilla):** Meio-termo. Pode ser usada comercialmente em código fechado, mas se modificar diretamente o *código-fonte original da ferramenta*, essas modificações específicas têm de ser partilhadas.
+*   🟠 **GPL v3:** *Copyleft*. Se criar uma aplicação que inclua ou derive deste código e a **distribuir** (ex: software desktop, executáveis locais), o seu software também terá de ser GPL (código aberto). Num modelo SaaS (onde o código corre apenas no seu servidor), as regras são ligeiramente mais brandas, mas requerem atenção.
+*   🔴 **AGPL v3:** *Copyleft* forte para a Web. Excelente para uso pessoal ou interno (como no seu laboratório doméstico), mas **muito perigosa para Micro-SaaS ou APIs comerciais fechadas**. Se oferecer o software como um serviço web, é obrigado a abrir o código-fonte de toda a sua aplicação ao público.
+*   🟣 **Fair-code / BSL (Business Source License):** Licenças não aprovadas pela OSI (*Open Source Initiative*). Permitem o uso livre e gratuito, mas proíbem estritamente que pegue no software e o revenda diretamente como um serviço gerido (SaaS concorrente).
+
+---
+
 ## 🧠 Inteligência Artificial, LLMs e Agentes
 
 Ferramentas para rodar, construir e integrar modelos de inteligência artificial.
 
 *   **[ollama/ollama](https://github.com/ollama/ollama)**
-    *   **O que é:** Uma ferramenta para rodar modelos de linguagem grandes (LLMs, como Llama 3, Mistral, etc.) diretamente na sua máquina local.
+    *   **O que é:** Uma ferramenta para rodar modelos de linguagem grandes (LLMs) diretamente na máquina local.
     *   **Quando usar:** Quando quiser interagir ou desenvolver com IA de forma gratuita, offline e com total privacidade.
+    *   **Licença:** 🟢 **MIT** (Livre para uso comercial e pessoal).
 *   **[langflow-ai/langflow](https://github.com/langflow-ai/langflow)**
     *   **O que é:** Uma interface visual (drag-and-drop) para construir aplicações de IA usando LangChain.
-    *   **Quando usar:** Para prototipar rapidamente fluxos de trabalho complexos de IA, agentes e sistemas de RAG sem precisar escrever tanto código.
+    *   **Quando usar:** Para prototipar rapidamente fluxos de trabalho complexos de IA sem precisar escrever tanto código.
+    *   **Licença:** 🟢 **MIT** (Livre para uso comercial e pessoal).
 *   **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)**
-    *   **O que é:** Um agente autônomo de engenharia de software open-source (anteriormente conhecido como OpenDevin).
-    *   **Quando usar:** Quando quiser uma IA que não apenas gere código, mas também consiga executar comandos no terminal, navegar na web e desenvolver funcionalidades completas junto com você.
+    *   **O que é:** Um agente autônomo de engenharia de software open-source (antigo OpenDevin).
+    *   **Quando usar:** Quando quiser uma IA que consiga executar comandos no terminal, navegar na web e desenvolver funcionalidades junto com você.
+    *   **Licença:** 🟢 **MIT** (Livre para uso comercial e pessoal).
 *   **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)**
     *   **O que é:** Uma lista curada com tutoriais e exemplos de aplicações construídas com LLMs.
-    *   **Quando usar:** Quando precisar de inspiração arquitetônica ou exemplos práticos (como RAG e Agentes) para criar seus próprios aplicativos com IA.
+    *   **Quando usar:** Quando precisar de inspiração arquitetônica ou exemplos práticos para criar seus aplicativos.
+    *   **Licença:** 🟢 **MIT** (Lista aberta).
 *   **[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)**
-    *   **O que é:** Um repositório focado em MCP (Model Context Protocol).
-    *   **Quando usar:** Quando precisar conectar seus assistentes de IA (como o Claude Desktop) a fontes de dados locais ou ferramentas externas de forma padronizada.
+    *   **O que é:** Um repositório focado em servidores MCP (Model Context Protocol).
+    *   **Quando usar:** Para conectar seus assistentes de IA a fontes de dados locais de forma padronizada.
+    *   **Licença:** 🟢 **CC0 / MIT** (Domínio público / Lista aberta).
 *   **[JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)**
-    *   **O que é:** Um template e agente que clona qualquer site com um único comando, transformando a URL em uma aplicação Next.js limpa e estruturada.
-    *   **Quando usar:** Para recuperar código-fonte perdido de sites ativos, migrar plataformas antigas ou estudar como layouts complexos foram desenvolvidos.
+    *   **O que é:** Um template e agente que clona qualquer site com um único comando em Next.js.
+    *   **Quando usar:** Para recuperar código-fonte ou estudar layouts complexos.
+    *   **Licença:** 🟢 **MIT** (Livre para uso comercial).
 *   **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)**
-    *   **O que é:** Uma ferramenta alimentada por IA que gera apresentações nativas e editáveis de PowerPoint (com formas, tabelas e animações) a partir de qualquer documento ou tópico.
-    *   **Quando usar:** Quando precisar transformar textos ou pesquisas em decks de slides profissionais rapidamente, economizando horas de design e diagramação.
+    *   **O que é:** Ferramenta com IA que gera apresentações editáveis de PowerPoint.
+    *   **Quando usar:** Para transformar textos em decks de slides profissionais rapidamente.
+    *   **Licença:** 🟢 **MIT** (Livre para integração comercial).
 *   **[trycompai/crm](https://github.com/trycompai/crm)**
-    *   **O que é:** Um CRM open-source desenhado especificamente para ser operado e guiado por agentes de IA.
-    *   **Quando usar:** Para estruturar bases de clientes e vendas onde os próprios agentes pesquisam histórico, enriquecem perfis e agendam acompanhamentos de forma autônoma.
+    *   **O que é:** Um CRM open-source desenhado para ser operado por agentes de IA.
+    *   **Quando usar:** Para estruturar bases de clientes geridas por agentes autônomos.
+    *   **Licença:** 🟢 **Apache 2.0** (Livre para uso comercial, exige manutenção dos avisos originais).
 *   **[paddlepaddle/paddleocr](https://github.com/paddlepaddle/paddleocr)**
-    *   **O que é:** Um conjunto de ferramentas OCR (Reconhecimento Óptico de Caracteres) multilíngue de alta precisão baseado em inteligência artificial.
-    *   **Quando usar:** Quando precisar extrair textos em diversos idiomas de PDFs, documentos escaneados ou fotos de forma automatizada e com nível de produção.
+    *   **O que é:** Conjunto de ferramentas OCR multilíngue de alta precisão.
+    *   **Quando usar:** Quando precisar extrair textos de PDFs ou fotos de forma automatizada.
+    *   **Licença:** 🟢 **Apache 2.0** (Seguro para uso comercial e integração em APIs).
 *   **[m-bain/whisperx](https://github.com/m-bain/whisperx)**
-    *   **O que é:** Uma ferramenta baseada no Whisper para reconhecimento automático de fala (ASR), ultra rápida e com suporte a *timestamps* precisos por palavra.
-    *   **Quando usar:** Para gerar legendas perfeitas, transcrever reuniões, ou criar ferramentas de processamento de áudio onde a temporização exata das palavras é crítica.
+    *   **O que é:** Ferramenta ultra rápida de reconhecimento de fala com timestamps precisos.
+    *   **Quando usar:** Para transcrever reuniões ou criar legendas perfeitas.
+    *   **Licença:** 🟢 **BSD-2-Clause** (Totalmente permissiva).
 *   **[danielmiessler/fabric](https://github.com/danielmiessler/fabric)**
-    *   **O que é:** Um framework open-source para potencializar a produtividade humana com IA, utilizando uma coleção modular de "Patterns" (prompts refinados via crowdsourcing).
-    *   **Quando usar:** Para automatizar análises de segurança, resumos de vídeos, ou criar textos via terminal de comando sem precisar "inventar" bons prompts toda vez.
+    *   **O que é:** Framework open-source modular de prompts refinados por crowdsourcing.
+    *   **Quando usar:** Para automatizar análises sem precisar "inventar" bons prompts.
+    *   **Licença:** 🟢 **MIT** (Livre para uso comercial e pessoal).
 *   **[simular-ai/agent-s](https://github.com/simular-ai/agent-s)**
-    *   **O que é:** Um framework aberto de IA focado em agir de forma semelhante a um humano, usando visão computacional para mover o mouse e digitar na interface gráfica do SO.
-    *   **Quando usar:** Para automatizar ações no desktop ou em sistemas web legados que não possuem APIs de integração nativas disponíveis.
+    *   **O que é:** Framework aberto de IA que usa visão computacional para mover o mouse e interagir com o SO.
+    *   **Quando usar:** Para automatizar ações no desktop em sistemas legados sem APIs.
+    *   **Licença:** 🟢 **MIT** (Livre para uso).
 *   **[usestrix/strix](https://github.com/usestrix/strix)**
-    *   **O que é:** Uma ferramenta open-source de *penetration testing* automatizado movido a IA, projetada para encontrar e corrigir vulnerabilidades em aplicações.
-    *   **Quando usar:** Para rodar varreduras de segurança contínuas na sua infraestrutura, APIs, ou pipelines CI/CD, obtendo tanto o diagnóstico quanto as correções sugeridas.
+    *   **O que é:** Ferramenta open-source de *penetration testing* movida a IA.
+    *   **Quando usar:** Para rodar varreduras de segurança em APIs ou pipelines.
+    *   **Licença:** 🟢 **Apache 2.0** (Livre para uso interno e comercial).
 *   **[MxCorpIn/Repolyze](https://github.com/MxCorpIn/Repolyze)**
-    *   **O que é:** Um analisador de repositórios GitHub movido a IA que avalia qualidade de código, arquitetura, vulnerabilidades de segurança e árvore de dependências.
-    *   **Quando usar:** Quando precisar fazer uma auditoria rápida em um projeto legado, entender a estrutura de um código de terceiros ou realizar um *code review* arquitetural automatizado.
+    *   **O que é:** Analisador de repositórios GitHub para auditoria de código e arquitetura.
+    *   **Quando usar:** Ao investigar código legado ou fazer auditorias de segurança.
+    *   **Licença:** 🟢 **MIT** (Livre para uso comercial).
 *   **[thruwire/foreman](https://github.com/thruwire/foreman)**
-    *   **O que é:** Um supervisor determinístico para agentes de código autônomos que monitora o trabalho em segundo plano, avaliando *git diffs* e logs em tempo real.
-    *   **Quando usar:** Para evitar que agentes de codificação entrem em *loop* infinito, saiam do rumo ou entreguem código sem testar, garantindo que o agente só pare quando a tarefa estiver realmente concluída.
+    *   **O que é:** Supervisor para agentes de código que monitora git diffs em tempo real.
+    *   **Quando usar:** Para evitar loops infinitos em agentes de codificação.
+    *   **Licença:** 🟢 **MIT** (Livre para integração).
 *   **[hydra-db/open-glean](https://github.com/hydra-db/open-glean)**
-    *   **O que é:** Um workspace de busca e IA open-source (alternativa *self-hosted* ao Glean) que unifica arquivos locais, notas e aplicativos conectados em uma única barra de pesquisa.
-    *   **Quando usar:** Quando quiser fazer perguntas em linguagem natural sobre a sua própria base de documentos e receber respostas precisas com todas as fontes e citações verificáveis.
+    *   **O que é:** Workspace de busca com IA (alternativa ao Glean) para arquivos locais.
+    *   **Quando usar:** Para perguntar sobre seus próprios documentos mantendo a privacidade.
+    *   **Licença:** 🟢 **Apache 2.0** (Seguro para uso e hospedagem comercial).
 *   **[opendatalab/MinerU](https://github.com/opendatalab/MinerU)**
-    *   **O que é:** Uma ferramenta pesada de extração de dados que converte PDFs complexos, documentos escaneados, arquivos Word e slides em Markdown limpo e JSON estruturado.
-    *   **Quando usar:** Para preparar documentos complexos (com múltiplas colunas, tabelas e fórmulas matemáticas) em textos perfeitamente legíveis para alimentar sistemas de RAG e LLMs.
+    *   **O que é:** Extração de dados pesada que converte PDFs complexos em Markdown/JSON.
+    *   **Quando usar:** Para preparar documentos complexos para RAG e LLMs.
+    *   **Licença:** 🟢 **Apache 2.0** (Seguro para uso comercial).
 *   **[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)**
-    *   **O que é:** Uma plataforma local e gratuita de geração e processamento de áudio com IA (alternativa open-source ao ElevenLabs), com suporte a clonagem de voz, dublagem, transcrição e audiobooks em 646 idiomas.
-    *   **Quando usar:** Quando precisar clonar vozes, dublar vídeos ou converter textos longos em áudio diretamente na sua máquina, sem pagar por caractere gerado e sem enviar áudios para a nuvem.
+    *   **O que é:** Plataforma local de processamento de áudio (dublagem, transcrição, TTS).
+    *   **Quando usar:** Como alternativa gratuita a APIs pagas de áudio na nuvem.
+    *   **Licença:** 🟢 **MIT** (Livre para uso comercial).
 *   **[vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)**
-    *   **O que é:** Um sistema de memória de longo prazo para agentes de IA que extrai fatos, experiências e modelos mentais para consolidar aprendizados entre diferentes sessões.
-    *   **Quando usar:** Para dar memória contínua aos seus agentes (via API ou MCP Server), permitindo que eles aprendam com erros passados e lembrem de todo o contexto sem começar do zero a cada nova conversa.
+    *   **O que é:** Sistema de memória de longo prazo para agentes de IA.
+    *   **Quando usar:** Para dar aos agentes a capacidade de consolidar aprendizados e fatos.
+    *   **Licença:** 🟢 **Apache 2.0** (Livre para uso comercial).
+*   **[obra/superpowers](https://github.com/obra/superpowers)**
+    *   **O que é:** Framework e metodologia TDD para agentes de IA.
+    *   **Quando usar:** Para forçar o agente a planear e testar código estruturado.
+    *   **Licença:** 🟢 **MIT** (Livre para uso e modificação).
+*   **[Juliusolsson05/openSEO](https://github.com/Juliusolsson05/openSEO)**
+    *   **O que é:** Motor de conteúdo IA focado em SEO para blogs e landing pages.
+    *   **Quando usar:** Para gerar conteúdo otimizado sem aspecto de "IA genérica".
+    *   **Licença:** 🟢 **MIT** (Perfeito para alimentar estratégias comerciais ou SaaS de conteúdo).
+*   **[ChrisCompton/omniroute](https://github.com/ChrisCompton/omniroute)**
+    *   **O que é:** Gateway de IA para acesso a dezenas de provedores de LLMs.
+    *   **Quando usar:** Para roteamento e fallback visando redução de custos de API.
+    *   **Licença:** 🟢 **MIT** (Livre para integração em arquiteturas fechadas).
+*   **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)**
+    *   **O que é:** Biblioteca para agentes gerarem vídeos via HTML programático.
+    *   **Quando usar:** Para renderizar animações de alta qualidade de forma padronizada.
+    *   **Licença:** 🟢 **MIT** (Livre para uso comercial).
+*   **[virgiliojr/book-to-skill](https://github.com/virgiliojr/book-to-skill)**
+    *   **O que é:** Ferramenta que converte livros técnicos e PDFs em "skills" para a IA.
+    *   **Quando usar:** Para permitir que uma IA consulte regras e modelos mentais de autores específicos.
+    *   **Licença:** 🟢 **MIT** (Pode usar para criar skills privadas).
+*   **[zoo-gg/text-to-cad](https://github.com/zoo-gg/text-to-cad)**
+    *   **O que é:** Infraestrutura para gerar ficheiros CAD (STEP/STL) através de *prompts* de texto.
+    *   **Quando usar:** Para prototipagem rápida de peças mecânicas.
+    *   **Licença:** 🟢 **MIT** (Código livre, mas atente-se se os modelos de IA por baixo têm restrições comerciais).
+*   **[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)**
+    *   **O que é:** Equipa de múltiplos agentes focada em análise de ações.
+    *   **Quando usar:** Apenas para estudos sobre o comportamento de agentes no debate financeiro.
+    *   **Licença:** 🟢 **Apache 2.0** (Permissiva para uso e estudo).
+*   **[bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)**
+    *   **O que é:** Uma consola de inteligência em tempo real para o planeta Terra, que exibe um globo 3D interativo.
+    *   **Quando usar:** Para explorar, seguir e inspecionar sinais globais (como navios, aviões, satélites, terramotos e clima) de forma visual e com suporte a comandos de voz.
+    *   **Licença:** 🟢 **MIT / Apache 2.0** (Regra geral nestes repositórios; o código base é seguro).
+*   **[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)**
+    *   **O que é:** Um agente de *trading* pessoal alimentado por IA, composto por equipas de agentes múltiplos dedicados a investigar, testar (*backtesting*) e gerar relatórios.
+    *   **Quando usar:** Quando quiser transformar ideias e estratégias em código para testar contra o mercado e analisar o comportamento e estrutura do mesmo.
+    *   **Licença:** 🟢 **MIT** (Geralmente livre para construir as suas próprias lógicas).
+*   **[THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)**
+    *   **O que é:** Uma ferramenta que converte instantaneamente qualquer tópico, documento, link web ou vídeo do YouTube numa sala de aula interativa gerida por IA.
+    *   **Quando usar:** Para gerar um curso dinâmico, gerar questionários interativos (*quizzes*) e recorrer a professores IA baseados em múltiplos agentes para explorar conceitos de forma adaptativa.
+    *   **Licença:** 🟢 **MIT / Apache 2.0** (Seguro para utilização).
+*   **[ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)**
+    *   **O que é:** Uma ferramenta dedicada à auditoria independente de agentes de IA, desenhada para testar exaustivamente as respostas e as permissões destas automações.
+    *   **Quando usar:** Para detetar preventivamente fugas de dados, falhas em regras ou ações não autorizadas antes de os clientes confiarem as suas operações ao agente, permitindo até a atribuição de uma classificação de desempenho (de A a F).
+    *   **Licença:** 🟢 **MIT** (Livre para utilizar nas suas validações de segurança).
+
+---
+
+## 🧩 Skills e Comportamentos para Agentes de IA
+
+Bibliotecas de instruções que pode instalar livremente na sua máquina para modificar agentes (Cursor, Claude, etc.). Sendo apenas ficheiros de texto/instruções (`.md`), não representam risco comercial direto (servem para o seu processo de engenharia interno).
+
+*   **[vercel-labs/skills (find-skills)](https://github.com/vercel-labs/skills)**
+    *   **O que é:** "Meta-skill" para o agente descobrir outras skills autonomamente.
+    *   **Licença:** 🟢 **MIT**
+*   **[mattpocock/skills (grill-me / improve-codebase / tdd / handoff / triage / prototype)](https://github.com/mattpocock/skills)**
+    *   **O que é:** Coleção gigante de regras rígidas de arquitetura, testes e *debugging*.
+    *   **Licença:** 🟢 **MIT**
+*   **[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)**
+    *   **O que é:** Equipa o agente com um navegador real.
+    *   **Licença:** 🟢 **MIT**
+*   **[anthropics/skills (frontend-design)](https://github.com/anthropics/skills)**
+    *   **O que é:** Biblioteca focada em UI/UX, espaçamento e tipografia de alto nível.
+    *   **Licença:** 🟢 **MIT**
+*   **[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)**
+    *   **O que é:** Auditoria de segurança *step-by-step* liderada pela Cloudflare.
+    *   **Licença:** 🟢 **Apache 2.0**
+*   **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)**
+    *   **O que é:** Skill para remover traços estéticos que denunciam que um site foi feito por IA.
+    *   **Licença:** 🟢 **MIT**
+*   **[Autor/UI-UX-Pro-Max](https://github.com/INSERIR-LINK-AQUI)**
+    *   **O que é:** Fornece inteligência de design para gerar landing pages comerciais completas com as cores/tipografia corretas.
+    *   **Licença:** 🟢 **MIT** (Totalmente permissivo para uso profissional).
 
 ---
 
 ## 🛠️ Recursos Gerais para Desenvolvedores
 
-Listas massivas de ferramentas, serviços gratuitos, infraestrutura e APIs.
-
 *   **[sindresorhus/awesome](https://github.com/sindresorhus/awesome)**
-    *   **O que é:** A "mãe de todas as listas". Um índice gigantesco que aponta para outras listas "Awesome" sobre milhares de tecnologias, linguagens e tópicos.
-    *   **Quando usar:** Sempre que começar a estudar uma tecnologia nova (ex: Python, DevOps, Banco de dados) e quiser saber quais são as melhores ferramentas daquele ecossistema.
+    *   **O que é:** Índice gigante que aponta para outras listas "Awesome".
+    *   **Licença:** 🟢 **CC0 (Domínio Público)**
 *   **[ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)**
-    *   **O que é:** Uma compilação de softwares (SaaS, PaaS, IaaS) que possuem camadas de uso gratuitas (free tiers) generosas para desenvolvedores.
-    *   **Quando usar:** Na hora de colocar um projeto no ar (hospedagem, banco de dados, monitoramento, envio de e-mails) sem gastar dinheiro.
+    *   **O que é:** Lista de SaaS e APIs com bons *free tiers* para programadores.
+    *   **Licença:** 🟢 **MIT**
 *   **[public-apis/public-apis](https://github.com/public-apis/public-apis)**
-    *   **O que é:** Um catálogo organizado com milhares de APIs públicas e gratuitas (finanças, clima, memes, dados abertos).
-    *   **Quando usar:** Para encontrar fontes de dados prontas para alimentar seus projetos de estudo, testes ou protótipos de aplicativos.
+    *   **O que é:** Catálogo com milhares de APIs públicas.
+    *   **Licença:** 🟢 **MIT**
 *   **[devlikeapro/waha](https://github.com/devlikeapro/waha)**
-    *   **O que é:** O WAHA (WhatsApp HTTP API) é uma API REST flexível para enviar e receber mensagens via WhatsApp.
-    *   **Quando usar:** Quando quiser configurar rapidamente integrações de notificações, automação ou bots no WhatsApp sem complicações na infraestrutura.
+    *   **O que é:** WAHA (WhatsApp HTTP API) em formato REST.
+    *   **Licença:** 🟣 **Comercial / Open-Core** (Versão base é livre, mas funcionalidades pesadas exigem licença própria. Cuidado se criar um micro-SaaS focado apenas em disparos).
 *   **[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)**
-    *   **O que é:** Uma ferramenta open-source e *self-hosted* para monitoramento de uptime, com uma interface bonita e simples de usar (similar ao Uptime Robot).
-    *   **Quando usar:** Para monitorar ativamente a disponibilidade dos seus sites, serviços e containers, configurando notificações caso algo saia do ar.
+    *   **O que é:** Monitorização de uptime com interface fluida.
+    *   **Licença:** 🟢 **MIT** (Pode usá-lo livremente ou cobrar para alojar painéis de estado para clientes).
 *   **[restic/restic](https://github.com/restic/restic)**
-    *   **O que é:** Um utilitário de backup via terminal escrito em Go, focado em ser rápido, criptografado de ponta a ponta e altamente seguro.
-    *   **Quando usar:** Na hora de configurar rotinas de backup eficientes e incrementais de pastas ou bancos de dados locais para o seu servidor ou para a nuvem.
+    *   **O que é:** Utilitário de backups ultra-seguro em Go.
+    *   **Licença:** 🟢 **BSD-2-Clause**
+*   **[DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)**
+    *   **O que é:** Serviço para registar nomes de domínio gratuitamente.
+    *   **Licença:** 🟢 **MIT** (O código é livre, os domínios seguem regras próprias da ICANN/registradores).
+*   **[reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists)**
+    *   **O que é:** Verificador de emails assíncrono via SMTP.
+    *   **Licença:** 🔴 **AGPL v3** (Perfeito para uso interno. **Cuidado:** Se expor a API de verificação deste repositório na web como um serviço seu, terá de abrir o código-fonte desse serviço).
+*   **[pranshuparmar/witr](https://github.com/pranshuparmar/witr)**
+    *   **O que é:** CLI para diagnosticar a árvore de arranque de processos.
+    *   **Licença:** 🟢 **MIT**
+*   **[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)**
+    *   **O que é:** Guias, recursos educativos e mapas (*roadmaps*) interativos e passo a passo criados para auxiliar os programadores no crescimento das suas carreiras, cobrindo vertentes como *front-end*, *back-end*, inteligência artificial e até o Claude Code.
+    *   **Licença:** 🟢 **MIT** (Conteúdo educacional de código aberto).
+*   **[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)**
+    *   **O que é:** Uma imensa lista curada contendo milhares de livros e recursos gratuitos sobre programação. Possui coleções separadas por língua, abrigando mais de 170 livros e 300 cursos apenas na secção dedicada a português.
+    *   **Licença:** 🟢 **CC-BY-4.0** (Conteúdo educacional em licença livre de partilha).
+*   **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)**
+    *   **O que é:** Um repositório que serve de guia intensivo para quem pretende perceber como as aplicações em grande escala (apps gigantes) são desenhadas e como aguentam milhares (ou milhões) de utilizadores simultâneos.
+    *   **Licença:** 🟢 **MIT** (Excelente recurso teórico).
+*   **[jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)**
+    *   **O que é:** Um guia compilado numa única página (com tradução para português) idealizado para ensinar de forma prática o uso de comandos e atalhos essenciais no terminal.
+    *   **Licença:** 🟢 **CC-BY-SA** (Documentação livre e aberta à comunidade).
+*   **[practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)**
+    *   **O que é:** Uma coleção organizada de tutoriais que assentam no desenvolvimento completo de projetos.
+    *   **Licença:** 🟢 **MIT** (Os links apontam para projetos de diversas origens, mas a curadoria possui permissões abertas).
+*   **[chrisgreg/boop](https://github.com/chrisgreg/boop)**
+    *   **O que é:** Uma caixa de entrada de notificações minúscula e *self-hosted* para programadores. Funciona com um único binário Go e envia alertas diretamente do seu servidor para a rede de notificações da Apple (APNs), sem recurso a contas ou serviços de terceiros.
+    *   **Quando usar:** Quando pretender ser alertado no seu telemóvel sempre que ocorrer um evento crítico nas suas aplicações, mantendo a infraestrutura sob o seu controlo e sem qualquer telemetria.
+    *   **Licença:** 🟢 **MIT** (Totalmente permissivo para qualquer uso).
 
 ---
 
 ## 🚀 Alternativas SaaS, Backend & Infraestrutura de Apps
 
-Plataformas open-source para criar produtos completos, substituindo ferramentas SaaS caras (como Calendly, Retool, Contentful, Firebase e Zapier) e podendo rodar no seu próprio servidor.
+Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vendendo as versões *cloud* pagas e utilizam licenças protetivas no código aberto para impedir que gigantes como a AWS (ou você) as transformem num SaaS concorrente de graça.
 
 *   **[calcom/cal.com](https://github.com/calcom/cal.com)**
-    *   **O que é:** Uma plataforma completa de agendamento de compromissos e gestão de calendários (alternativa open-source direta ao Calendly).
-    *   **Quando usar:** Quando precisar gerenciar a agenda de um negócio, criar páginas de marcação de reuniões em equipe ou embutir fluxos de agendamento direto no seu produto sem pagar mensalidades por usuário.
+    *   **O que é:** Plataforma de agendamento de reuniões.
+    *   **Licença:** 🔴 **AGPL v3** (Para uso comercial interno é livre. Mas se fizer alterações e vender o acesso a clientes, terá de abrir o código-fonte público ou pagar a licença *Enterprise* deles).
 *   **[refinedev/refine](https://github.com/refinedev/refine)**
-    *   **O que é:** Um meta-framework baseado em React para construção rápida de ferramentas internas, dashboards administrativos, B2B e CRMs (alternativa ao Retool).
-    *   **Quando usar:** Para criar painéis administrativos completos e customizáveis em cima da sua API existente com total controle do código e sem custos por "construtor" ou usuário.
+    *   **O que é:** Meta-framework em React para construir CRMs e Dashboards.
+    *   **Licença:** 🟢 **MIT** (100% permissivo para construir os seus SaaS comerciais).
 *   **[payloadcms/payload](https://github.com/payloadcms/payload)**
-    *   **O que é:** Um Headless CMS e framework de aplicação moderno, construído de forma *code-first* com TypeScript, Node.js e React (alternativa a plataformas caras como Contentful).
-    *   **Quando usar:** Quando precisar de um painel de gestão de conteúdo (CMS) poderoso e flexível para alimentar sites, blogs ou aplicativos, mantendo controle total do banco de dados e da infraestrutura.
+    *   **O que é:** Headless CMS moderno com base em Node e React.
+    *   **Licença:** 🟢 **MIT** (Anteriormente era restritivo, mas agora é livre para uso comercial irrestrito).
 *   **[supabase/supabase](https://github.com/supabase/supabase)**
-    *   **O que é:** A principal alternativa open-source ao Firebase, oferecendo banco de dados Postgres completo, autenticação (login), storage de arquivos, Edge Functions e APIs instantâneas.
-    *   **Quando usar:** Para subir todo o backend de um aplicativo rapidamente (seja na nuvem ou *self-hosted* via Docker) sem precisar programar a infraestrutura de banco, autenticação e upload do zero.
+    *   **O que é:** A alternativa ao Firebase com Postgres.
+    *   **Licença:** 🟢 **Apache 2.0** (Alojamento e comercialização do seu código são totalmente seguros).
 *   **[umami-software/umami](https://github.com/umami-software/umami)**
-    *   **O que é:** Uma ferramenta de web analytics simples, rápida e focada em privacidade (alternativa leve ao Google Analytics e ao Plausible).
-    *   **Quando usar:** Para monitorar o tráfego, origens de acesso e conversões dos seus sites sem usar cookies invasivos, sem precisar de banners de LGPD/GDPR e sem vender os dados dos seus visitantes.
+    *   **O que é:** Web analytics simples e focado em privacidade.
+    *   **Licença:** 🟢 **MIT** (Pode usá-lo ou até mesmo criar um SaaS e vender analíticas web com a plataforma deles por trás).
 *   **[triggerdotdev/trigger.dev](https://github.com/triggerdotdev/trigger.dev)**
-    *   **O que é:** Um framework open-source de *background jobs* e orquestração de tarefas longas diretamente no código (substituindo automações complexas do Zapier ou filas difíceis de manter).
-    *   **Quando usar:** Quando precisar rodar processos demorados (como chamadas encadeadas de IA, processamento de vídeos ou integrações com APIs) sem sofrer com limites de *timeout* de servidores serverless, contando com retentativas automáticas e painel de monitoramento.
+    *   **O que é:** Orquestrador de tarefas (*background jobs*) em código.
+    *   **Licença:** 🟢 **Apache 2.0**
 *   **[fleetbase/fleetbase](https://github.com/fleetbase/fleetbase)**
-    *   **O que é:** Um sistema operacional modular e open-source para logística e cadeia de suprimentos (*supply chain*), reunindo gestão de frotas, operações de armazém, *fulfillment* de e-commerce e contabilidade em uma única plataforma.
-    *   **Quando usar:** Quando precisar construir ou gerenciar operações logísticas, rastreamento de motoristas em tempo real, despacho automatizado de entregas e roteirização sem pagar taxas por entrega ou ficar preso a sistemas fechados.
+    *   **O que é:** Sistema logístico (gestão de frotas e e-commerce).
+    *   **Licença:** 🟢 **Apache 2.0 / MIT**
+*   **[n8n-io/n8n](https://github.com/n8n-io/n8n)**
+    *   **O que é:** Ferramenta *self-hosted* de automação e fluxos de trabalho (estilo Zapier).
+    *   **Licença:** 🟣 **Sustainable Use License (Fair-code)** (Permite uso interno ilimitado, mas **estritamente proibido** de alojar e rentabilizar o n8n vendendo automações diretamente ao cliente final num modelo "SaaS de n8n").
+*   **[twentyhq/twenty](https://github.com/twentyhq/twenty)**
+    *   **O que é:** CRM de código aberto em Postgres.
+    *   **Licença:** 🔴 **AGPL v3** (Regra clássica: não pode hospedar o Twenty, vendê-lo como serviço sem pagar licenças, a não ser que mantenha o seu projeto *open source*).
+*   **[chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)**
+    *   **O que é:** Plataforma de atendimento de mensagens omnicanal.
+    *   **Licença:** 🟢 **MIT** (A base aberta é MIT, permitindo que instale num servidor comercial e ligue os seus próprios agentes de vendas com IA a ele sem problemas legais).
+*   **[mrifqidaffaaditya/WA-AKG](https://github.com/mrifqidaffaaditya/WA-AKG)**
+    *   **O que é:** Um *gateway* e painel de controlo de WhatsApp *self-hosted*, desenvolvido com Next.js 15, Baileys e Prisma.
+    *   **Quando usar:** Quando pretender gerir a sua própria infraestrutura de envio e receção de mensagens de WhatsApp, evitando os custos de APIs pagas de terceiros.
+    *   **Licença:** 🟢 **MIT** (Totalmente permissivo para uso pessoal e comercial).
+*   **[croffasia/itsaplan](https://github.com/croffasia/itsaplan)**
+    *   **O que é:** Uma alternativa de código aberto ao Linear, Jira, Trello e Plane para gestão de projetos, com acompanhamento de tarefas concebido de raiz para que agentes de IA trabalhem ao lado da equipa.
+    *   **Quando usar:** Quando necessitar de gerir o desenvolvimento de software e quiser integrar assistentes autónomos nas suas tarefas através de REST API, *webhooks* ou MCP.
+    *   **Licença:** 🔴 **AGPL v3** (Livre para alojar e gerir a sua própria equipa, mas não pode ser redistribuído como um SaaS comercial proprietário sem abrir o código).
 
 ---
 
 ## 🕷️ Extração de Dados & Automação
 
-Ferramentas focadas em web scraping e rotinas automatizadas de execução.
-
 *   **[D4vinci/scrapling](https://github.com/D4vinci/scrapling)**
-    *   **O que é:** Uma biblioteca de web scraping em Python focada em ser rápida, flexível e anti-detecção.
-    *   **Quando usar:** Quando precisar extrair dados de sites complexos de forma automatizada e quiser evitar bloqueios por sistemas de segurança web (WAFs e CAPTCHAS).
+    *   **O que é:** Web scraping super-rápido focado em fugir a bloqueios.
+    *   **Licença:** 🟢 **MIT**
 *   **[gosom/google-maps-scraper](https://github.com/gosom/google-maps-scraper)**
-    *   **O que é:** Um utilitário robusto para raspar dados locais de empresas e informações diretamente do Google Maps.
-    *   **Quando usar:** Para extrair listas detalhadas de comércios locais, telefones e avaliações para automação de leads ou estudos de mercado.
+    *   **O que é:** Raspa dados de comércio locais.
+    *   **Licença:** 🟢 **MIT**
 *   **[fujiwarachoki/moneyprinterv2](https://github.com/fujiwarachoki/moneyprinterv2)**
-    *   **O que é:** Uma ferramenta focada na automação e geração em massa de conteúdo digital, especialmente para formatos curtos (como YouTube Shorts e TikTok).
-    *   **Quando usar:** Quando estiver experimentando ideias de automação de marketing de conteúdo ou crescimento programático em redes sociais.
+    *   **O que é:** Geração autónoma de vídeos curtos em lote (TikTok/Shorts).
+    *   **Licença:** 🟢 **MIT**
+*   **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)**
+    *   **O que é:** Web crawler otimizado para recolher conteúdo em Markdown para alimentar LLMs.
+    *   **Licença:** 🔴 **AGPL v3** (Se vai colocar o Firecrawl no *backend* do seu micro-SaaS para raspar dados para o cliente final, e o sistema interagir via API pública exposta, corre riscos com a AGPL. Melhor usar a API oficial paga deles em produção).
+*   **[tonhowtf/omniget](https://github.com/tonhowtf/omniget)**
+    *   **O que é:** Uma aplicação de ambiente de trabalho de código aberto (disponível para Windows, macOS e Linux) que permite transferir cursos online (Udemy, Hotmart, Kiwify, etc.), vídeos, áudio e livros de mais de 1800 plataformas de forma nativa e sem a utilização da linha de comandos.
+    *   **Quando usar:** Para arquivar localmente materiais de estudo e média para acesso offline, garantindo que os ficheiros permanecem no seu computador e podem ser reproduzidos diretamente na aplicação.
+    *   **Licença:** 🟠 **GPL v3** (Perfeito para uso próprio, mas se modificar a aplicação para a distribuir, terá de fazê-lo sob a mesma licença aberta).
 
 ---
 
 ## 🎨 Design e UI
 
-Ferramentas visuais e de processamento de interface.
-
 *   **[nexu-io/open-design](https://github.com/nexu-io/open-design)**
-    *   **O que é:** Uma compilação de ferramentas e recursos abertos voltados para design e interface de usuário.
-    *   **Quando usar:** Quando você precisar de inspiração visual, bibliotecas de componentes ou recursos gráficos para melhorar a interface dos seus projetos.
+    *   **O que é:** Compilação de bibliotecas UI gratuitas.
+    *   **Licença:** 🟢 **MIT / CC0**
 *   **[danielgatis/REMBG](https://github.com/danielgatis/REMBG)**
-    *   **O que é:** Uma utilidade simples e direta, baseada em IA, projetada estritamente para remover fundos de imagens.
-    *   **Quando usar:** Para processar imagens de forma automatizada, gerando fotos de produtos ou recortes com fundo transparente em lote para lojas e painéis visuais.
+    *   **O que é:** Removedor de fundo de imagem via IA.
+    *   **Licença:** 🟢 **MIT**
+*   **[taste-skill / Taste](https://github.com/taste-skill)**
+    *   **O que é:** Skill de direção de arte para IA.
+    *   **Licença:** 🟢 **MIT**
+*   **[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)**
+    *   **O que é:** Alternativa ao Lucidchart que extrai o estilo CSS da marca.
+    *   **Licença:** 🟢 **MIT**
+*   **[upscayl/upscayl](https://github.com/upscayl/upscayl)**
+    *   **O que é:** Ampliação/Upscale de imagem na máquina local.
+    *   **Licença:** 🔴 **AGPL v3** (Pode usar no seu PC livremente, mas não faça um "SaaS de Upscale" a cobrar sem abrir o código do SaaS).
+*   **[penpot/penpot](https://github.com/penpot/penpot)**
+    *   **O que é:** Alternativa viável e livre ao Figma.
+    *   **Licença:** 🟡 **MPL 2.0** (Pode alojar no seu servidor de forma gratuita para a sua empresa usar sem restrições sobre os ficheiros criados).
 
 ---
 
 ## 🏠 Self-Hosted, Privacidade & Casa Inteligente
 
-Sistemas para rodar no seu próprio servidor ou máquina local, garantindo controle total dos seus dados, automação residencial e substituição de serviços pagos na nuvem.
+A esmagadora maioria destes projetos utiliza a GPL/AGPL para garantir que contribuidores comunitários protegem o código. Pode usar, quebrar e refazer no servidor da sua casa à vontade sem stress. Só não os empacote para venda.
 
 *   **[paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)**
-    *   **O que é:** Um sistema de gerenciamento de documentos que escaneia, extrai texto via OCR e organiza recibos, notas e contratos automaticamente com machine learning.
-    *   **Quando usar:** Para eliminar papelada física e ter um arquivo digital onde qualquer documento ou nota fiscal pode ser encontrado em segundos buscando por palavras-chave do conteúdo.
+    *   **O que é:** Gestor de PDFs OCR e notas fiscais locais.
+    *   **Licença:** 🟠 **GPL v3**
 *   **[karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)**
-    *   **O que é:** Um gerenciador de favoritos ("bookmark everything", antigo Hoarder) que salva links, notas, imagens e PDFs, aplicando etiquetas automáticas com IA (inclusive integrado ao Ollama).
-    *   **Quando usar:** Para guardar referências, artigos e vídeos da web sem correr o risco de perder o conteúdo caso o site original saia do ar (ele arquiva a página inteira e faz OCR em prints).
+    *   **O que é:** Guardar links/vídeos (*Bookmark everything*).
+    *   **Licença:** 🔴 **AGPL v3**
 *   **[dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)**
-    *   **O que é:** Uma implementação alternativa e super leve do servidor de senhas Bitwarden, escrita em Rust (inclui suporte nativo ao **Bitwarden Send**).
-    *   **Quando usar:** Para hospedar seu próprio cofre de senhas em um servidor modesto ou Raspberry Pi, liberando gratuitamente os recursos premium e o envio de arquivos/textos temporários criptografados que expiram sozinhos.
+    *   **O que é:** Gestor de senhas super-leve (API Bitwarden).
+    *   **Licença:** 🟠 **GPL v3**
 *   **[anyproto/anytype-ts](https://github.com/anyproto/anytype-ts)**
-    *   **O que é:** Uma alternativa open-source ao Notion focada em privacidade (*local-first*), com criptografia ponta a ponta e estrutura de notas e tarefas baseada em grafos e objetos.
-    *   **Quando usar:** Quando quiser construir um segundo cérebro, wiki pessoal ou gerenciador de projetos que funcione 100% offline e sincronize direto entre seus aparelhos (P2P) sem depender da nuvem de terceiros.
+    *   **O que é:** Alternativa focada em privacidade ao Notion.
+    *   **Licença:** 🟣 **Any Source Available License** (Livre para uso próprio, restrita para SaaS de terceiros).
 *   **[AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome)**
-    *   **O que é:** Um servidor DNS local que atua como um bloqueador de anúncios e rastreadores para toda a sua rede doméstica.
-    *   **Quando usar:** Para bloquear propagandas e telemetria na casa inteira de uma só vez, protegendo inclusive aparelhos que não aceitam extensões de navegador, como Smart TVs e videogames.
+    *   **O que é:** DNS e bloqueador de publicidade à escala da rede local.
+    *   **Licença:** 🟠 **GPL v3**
 *   **[syncthing/syncthing](https://github.com/syncthing/syncthing)**
-    *   **O que é:** Uma ferramenta de sincronização contínua de arquivos ponto a ponto (P2P) e descentralizada.
-    *   **Quando usar:** Para manter pastas idênticas e sincronizadas entre seu computador, notebook e celular em tempo real sem precisar pagar ou confiar seus arquivos ao Google Drive, Dropbox ou OneDrive.
+    *   **O que é:** Sincronização de ficheiros P2P (estilo DropBox).
+    *   **Licença:** 🟡 **MPL 2.0**
 *   **[home-assistant/core](https://github.com/home-assistant/core)**
-    *   **O que é:** A principal plataforma open-source de automação residencial, projetada para ser o cérebro da casa inteligente com controle local.
-    *   **Quando usar:** Para unificar lâmpadas, sensores, câmeras e fechaduras de marcas diferentes (Tuya, Sonoff, Zigbee, Philips) em um único painel que continua funcionando mesmo se a internet cair.
+    *   **O que é:** O cérebro central para toda a domótica e dispositivos da sua casa.
+    *   **Licença:** 🟢 **Apache 2.0** (Muito generosa para a comunidade e fabricantes terceiros).
 *   **[advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf)**
-    *   **O que é:** Um servidor de mídia *self-hosted* desenvolvido especificamente para organizar e reproduzir audiobooks e podcasts.
-    *   **Quando usar:** Para criar o seu próprio "Audible particular", escutando seus livros em áudio pelo celular ou navegador com sincronização automática de progresso de leitura e busca de capas.
+    *   **O que é:** Servidor *self-hosted* focado em Audiobooks e Podcasts.
+    *   **Licença:** 🟠 **GPL v3**
 *   **[Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)**
-    *   **O que é:** Uma aplicação web completa e hospedada localmente para manipular arquivos PDF (juntar, dividir, converter, comprimir, aplicar OCR e assinar).
-    *   **Quando usar:** Quando precisar editar ou converter contratos e documentos confidenciais sem fazer upload deles em sites públicos de terceiros (como iLovePDF).
+    *   **O que é:** Ferramenta canivete-suíço para manipular PDFs sem depender da Cloud.
+    *   **Licença:** 🟠 **GPL v3**
