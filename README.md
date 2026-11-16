@@ -168,6 +168,10 @@ Bibliotecas de instruções que pode instalar livremente na sua máquina para mo
 *   **[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)**
     *   **O que é:** Fornece inteligência de design para gerar landing pages comerciais completas com as cores/tipografia corretas.
     *   **Licença:** 🟢 **MIT** (Totalmente permissivo para uso profissional).
+*   **[DietrichGebert/ponytail](https://github.com/dietrichgebert/ponytail)**
+    *   **O que é:** Skill e conjunto de plugins que orientam agentes de IA a resolver tarefas com o mínimo de código necessário, mantendo validações, segurança e testes.
+    *   **Quando usar:** Para incentivar agentes de programação a reutilizar o que já existe, evitar complexidade desnecessária e revisar alterações ou repositórios.
+    *   **Licença:** 🟢 **MIT**
 
 ---
 
