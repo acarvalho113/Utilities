@@ -165,7 +165,7 @@ Bibliotecas de instruções que pode instalar livremente na sua máquina para mo
 *   **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)**
     *   **O que é:** Skill para remover traços estéticos que denunciam que um site foi feito por IA.
     *   **Licença:** 🟢 **MIT**
-*   **[Autor/UI-UX-Pro-Max](https://github.com/INSERIR-LINK-AQUI)**
+*   **[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)**
     *   **O que é:** Fornece inteligência de design para gerar landing pages comerciais completas com as cores/tipografia corretas.
     *   **Licença:** 🟢 **MIT** (Totalmente permissivo para uso profissional).
 
