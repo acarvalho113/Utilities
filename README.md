@@ -219,6 +219,10 @@ Bibliotecas de instruções que pode instalar livremente na sua máquina para mo
     *   **O que é:** Uma caixa de entrada de notificações minúscula e *self-hosted* para programadores. Funciona com um único binário Go e envia alertas diretamente do seu servidor para a rede de notificações da Apple (APNs), sem recurso a contas ou serviços de terceiros.
     *   **Quando usar:** Quando pretender ser alertado no seu telemóvel sempre que ocorrer um evento crítico nas suas aplicações, mantendo a infraestrutura sob o seu controlo e sem qualquer telemetria.
     *   **Licença:** 🟢 **MIT** (Totalmente permissivo para qualquer uso).
+*   **[aws/aws-emulator](https://github.com/aws/aws-emulator)**
+    *   **O que é:** Emulador local das APIs da AWS, que permite testar aplicações sem enviar chamadas reais para a AWS nem precisar de uma conta.
+    *   **Quando usar:** Para desenvolver e testar integrações com serviços AWS localmente ou em CI, apontando a AWS CLI ou os SDKs para o emulador.
+    *   **Licença:** 🟢 **CC0-1.0** (Domínio público).
 
 ---
 
