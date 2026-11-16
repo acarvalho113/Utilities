@@ -8,5 +8,6 @@ Este repositório é um índice pessoal de repositórios úteis do GitHub. Quand
 4. Antes de concluir, revise a formatação do README, incluindo a hierarquia de títulos e listas, e verifique os links das entradas adicionadas ou alteradas. Corrija URLs de exemplo, placeholders ou links obviamente malformados; confirme o destino correto em fonte confiável antes de substituir um link. Não altere links não relacionados sem necessidade.
 5. Preserve o restante do README e evite duplicar uma entrada que já exista.
 6. Ao concluir, informe brevemente em qual seção adicionou o repositório ou quais problemas de formatação corrigiu.
+7. Depois de preparar e revisar as alterações, pergunte se o usuário autoriza fazer o commit e o push. Só execute essas operações após confirmação explícita; se autorizado, inclua apenas as alterações deste trabalho e informe o resultado.
 
-O fluxo padrão é adicionar o repositório enviado diretamente ao README; não é necessário pedir confirmação para escolhas editoriais rotineiras.
+O fluxo padrão é adicionar o repositório enviado diretamente ao README; não é necessário pedir confirmação para escolhas editoriais rotineiras. A confirmação de commit e push é sempre uma etapa separada.
