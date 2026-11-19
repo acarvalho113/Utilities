@@ -227,6 +227,18 @@ Bibliotecas de instruções que pode instalar livremente na sua máquina para mo
     *   **O que é:** Emulador local das APIs da AWS, que permite testar aplicações sem enviar chamadas reais para a AWS nem precisar de uma conta.
     *   **Quando usar:** Para desenvolver e testar integrações com serviços AWS localmente ou em CI, apontando a AWS CLI ou os SDKs para o emulador.
     *   **Licença:** 🟢 **CC0-1.0** (Domínio público).
+*   **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)**
+    *   **O que é:** Ferramenta que detecta segredos, como senhas, chaves de API e tokens, em arquivos e no histórico Git.
+    *   **Quando usar:** Para verificar repositórios localmente ou incluir a detecção de segredos em hooks de pre-commit e pipelines de CI.
+    *   **Licença:** 🟢 **MIT** (O projeto está completo; futuras versões serão focadas em correções de segurança).
+*   **[aquasecurity/trivy](https://github.com/aquasecurity/trivy)**
+    *   **O que é:** Scanner de segurança para encontrar vulnerabilidades, configurações incorretas e segredos em imagens de contêiner, repositórios, Kubernetes e outros alvos.
+    *   **Quando usar:** Para verificar dependências, imagens e infraestrutura como código durante o desenvolvimento ou em pipelines de CI.
+    *   **Licença:** 🟢 **Apache 2.0**
+*   **[zaproxy/zaproxy](https://github.com/zaproxy/zaproxy)**
+    *   **O que é:** Scanner de aplicações web que ajuda a identificar vulnerabilidades automaticamente e também oferece recursos para testes manuais de segurança.
+    *   **Quando usar:** Para testar a segurança de aplicações web durante o desenvolvimento ou em avaliações de *pentest*.
+    *   **Licença:** 🟢 **Apache 2.0**
 
 ---
 
