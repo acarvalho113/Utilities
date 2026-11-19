@@ -172,6 +172,10 @@ Bibliotecas de instruções que pode instalar livremente na sua máquina para mo
     *   **O que é:** Skill e conjunto de plugins que orientam agentes de IA a resolver tarefas com o mínimo de código necessário, mantendo validações, segurança e testes.
     *   **Quando usar:** Para incentivar agentes de programação a reutilizar o que já existe, evitar complexidade desnecessária e revisar alterações ou repositórios.
     *   **Licença:** 🟢 **MIT**
+*   **[GoogleChrome/modern-web-guidance](https://github.com/googlechrome/modern-web-guidance)**
+    *   **O que é:** Conjunto de skills com boas práticas modernas da plataforma web e dados de compatibilidade de navegadores para agentes de programação.
+    *   **Quando usar:** Para orientar agentes na criação ou modernização de aplicações web, com foco em APIs atuais, desempenho e acessibilidade.
+    *   **Licença:** 🟢 **Apache 2.0**
 
 ---
 
@@ -344,6 +348,10 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[penpot/penpot](https://github.com/penpot/penpot)**
     *   **O que é:** Alternativa viável e livre ao Figma.
     *   **Licença:** 🟡 **MPL 2.0** (Pode alojar no seu servidor de forma gratuita para a sua empresa usar sem restrições sobre os ficheiros criados).
+*   **[meta/astryx](https://github.com/meta/astryx)**
+    *   **O que é:** Sistema de design personalizável para React, com componentes acessíveis, temas e ferramentas para desenvolvedores e agentes de IA.
+    *   **Quando usar:** Para construir interfaces React com componentes e temas prontos, mantendo a possibilidade de personalizar o estilo.
+    *   **Licença:** 🟢 **MIT**
 
 ---
 
@@ -378,3 +386,7 @@ A esmagadora maioria destes projetos utiliza a GPL/AGPL para garantir que contri
 *   **[Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)**
     *   **O que é:** Ferramenta canivete-suíço para manipular PDFs sem depender da Cloud.
     *   **Licença:** 🟠 **GPL v3**
+*   **[we-promise/sure](https://github.com/we-promise/sure)**
+    *   **O que é:** Aplicação de finanças pessoais que pode ser auto-hospedada; é um fork comunitário do projeto Maybe Finance.
+    *   **Quando usar:** Para gerir orçamento, patrimônio e gastos em uma instância própria, acessível pelo navegador e por aplicativos clientes.
+    *   **Licença:** 🔴 **AGPL v3**
