@@ -186,6 +186,10 @@ Bibliotecas de instruções que pode instalar livremente na sua máquina para mo
 *   **[public-apis/public-apis](https://github.com/public-apis/public-apis)**
     *   **O que é:** Catálogo com milhares de APIs públicas.
     *   **Licença:** 🟢 **MIT**
+*   **[axllent/mailpit](https://github.com/axllent/mailpit)**
+    *   **O que é:** Ferramenta de teste de e-mail e SMTP com interface web e API para desenvolvedores.
+    *   **Quando usar:** Para capturar e inspecionar localmente os e-mails enviados pela aplicação durante o desenvolvimento e os testes.
+    *   **Licença:** 🟢 **MIT**
 *   **[devlikeapro/waha](https://github.com/devlikeapro/waha)**
     *   **O que é:** WAHA (WhatsApp HTTP API) em formato REST.
     *   **Licença:** 🟣 **Comercial / Open-Core** (Versão base é livre, mas funcionalidades pesadas exigem licença própria. Cuidado se criar um micro-SaaS focado apenas em disparos).
@@ -284,6 +288,18 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
     *   **O que é:** Uma alternativa de código aberto ao Linear, Jira, Trello e Plane para gestão de projetos, com acompanhamento de tarefas concebido de raiz para que agentes de IA trabalhem ao lado da equipa.
     *   **Quando usar:** Quando necessitar de gerir o desenvolvimento de software e quiser integrar assistentes autónomos nas suas tarefas através de REST API, *webhooks* ou MCP.
     *   **Licença:** 🔴 **AGPL v3** (Livre para alojar e gerir a sua própria equipa, mas não pode ser redistribuído como um SaaS comercial proprietário sem abrir o código).
+*   **[logto-io/logto](https://github.com/logto-io/logto)**
+    *   **O que é:** Infraestrutura de autenticação e autorização para aplicações SaaS, com OIDC, OAuth 2.1, SSO e controle de acesso por papéis.
+    *   **Quando usar:** Para implementar login, gestão de identidade e controle de acesso em aplicações e produtos multi-tenant.
+    *   **Licença:** 🟡 **MPL 2.0** (Pode usar comercialmente; alterações diretas ao código coberto pela licença devem permanecer abertas).
+*   **[getlago/lago](https://github.com/getlago/lago)**
+    *   **O que é:** Plataforma de medição de uso e faturação por consumo, com gestão de subscrições, pagamentos e análise de receita.
+    *   **Quando usar:** Para implementar cobrança baseada no uso ou gerir subscrições e faturação num produto SaaS.
+    *   **Licença:** 🔴 **AGPL v3** (A oferta como serviço de uma versão modificada pode exigir a disponibilização do código-fonte correspondente).
+*   **[postalserver/postal](https://github.com/postalserver/postal)**
+    *   **O que é:** Plataforma de entrega de e-mails para envio e receção, que pode ser alojada na própria infraestrutura.
+    *   **Quando usar:** Para operar um serviço próprio de entrega de e-mails transacionais ou de entrada.
+    *   **Licença:** 🟢 **MIT**
 
 ---
 
