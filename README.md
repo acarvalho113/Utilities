@@ -35,7 +35,7 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
 *   **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)**
     *   **O que é:** Uma lista curada com tutoriais e exemplos de aplicações construídas com LLMs.
     *   **Quando usar:** Quando precisar de inspiração arquitetônica ou exemplos práticos para criar seus aplicativos.
-    *   **Licença:** 🟢 **MIT** (Lista aberta).
+    *   **Licença:** 🟢 **Apache 2.0**.
 *   **[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)**
     *   **O que é:** Um repositório focado em servidores MCP (Model Context Protocol).
     *   **Quando usar:** Para conectar seus assistentes de IA a fontes de dados locais de forma padronizada.
@@ -51,23 +51,23 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
 *   **[trycompai/crm](https://github.com/trycompai/crm)**
     *   **O que é:** Um CRM open-source desenhado para ser operado por agentes de IA.
     *   **Quando usar:** Para estruturar bases de clientes geridas por agentes autônomos.
-    *   **Licença:** 🟢 **Apache 2.0** (Livre para uso comercial, exige manutenção dos avisos originais).
-*   **[paddlepaddle/paddleocr](https://github.com/paddlepaddle/paddleocr)**
+    *   **Licença:** 🟢 **MIT**.
+*   **[PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)**
     *   **O que é:** Conjunto de ferramentas OCR multilíngue de alta precisão.
     *   **Quando usar:** Quando precisar extrair textos de PDFs ou fotos de forma automatizada.
     *   **Licença:** 🟢 **Apache 2.0** (Seguro para uso comercial e integração em APIs).
-*   **[m-bain/whisperx](https://github.com/m-bain/whisperx)**
+*   **[m-bain/whisperX](https://github.com/m-bain/whisperX)**
     *   **O que é:** Ferramenta ultra rápida de reconhecimento de fala com timestamps precisos.
     *   **Quando usar:** Para transcrever reuniões ou criar legendas perfeitas.
     *   **Licença:** 🟢 **BSD-2-Clause** (Totalmente permissiva).
-*   **[danielmiessler/fabric](https://github.com/danielmiessler/fabric)**
+*   **[danielmiessler/Fabric](https://github.com/danielmiessler/Fabric)**
     *   **O que é:** Framework open-source modular de prompts refinados por crowdsourcing.
     *   **Quando usar:** Para automatizar análises sem precisar "inventar" bons prompts.
     *   **Licença:** 🟢 **MIT** (Livre para uso comercial e pessoal).
-*   **[simular-ai/agent-s](https://github.com/simular-ai/agent-s)**
+*   **[simular-ai/Agent-S](https://github.com/simular-ai/Agent-S)**
     *   **O que é:** Framework aberto de IA que usa visão computacional para mover o mouse e interagir com o SO.
     *   **Quando usar:** Para automatizar ações no desktop em sistemas legados sem APIs.
-    *   **Licença:** 🟢 **MIT** (Livre para uso).
+    *   **Licença:** 🟢 **Apache 2.0**.
 *   **[usestrix/strix](https://github.com/usestrix/strix)**
     *   **O que é:** Ferramenta open-source de *penetration testing* movida a IA.
     *   **Quando usar:** Para rodar varreduras de segurança em APIs ou pipelines.
@@ -87,15 +87,15 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
 *   **[opendatalab/MinerU](https://github.com/opendatalab/MinerU)**
     *   **O que é:** Extração de dados pesada que converte PDFs complexos em Markdown/JSON.
     *   **Quando usar:** Para preparar documentos complexos para RAG e LLMs.
-    *   **Licença:** 🟢 **Apache 2.0** (Seguro para uso comercial).
+    *   **Licença:** 🟣 **Apache 2.0 com termos adicionais** (atribuição obrigatória e licença comercial acima de 100 milhões de utilizadores ativos mensais ou US$ 20 milhões de receita mensal; consulte o LICENSE).
 *   **[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)**
     *   **O que é:** Plataforma local de processamento de áudio (dublagem, transcrição, TTS).
     *   **Quando usar:** Como alternativa gratuita a APIs pagas de áudio na nuvem.
-    *   **Licença:** 🟢 **MIT** (Livre para uso comercial).
+    *   **Licença:** 🔴 **AGPL v3**.
 *   **[vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)**
     *   **O que é:** Sistema de memória de longo prazo para agentes de IA.
     *   **Quando usar:** Para dar aos agentes a capacidade de consolidar aprendizados e fatos.
-    *   **Licença:** 🟢 **Apache 2.0** (Livre para uso comercial).
+    *   **Licença:** 🟢 **MIT**.
 *   **[obra/superpowers](https://github.com/obra/superpowers)**
     *   **O que é:** Framework e metodologia TDD para agentes de IA.
     *   **Quando usar:** Para forçar o agente a planear e testar código estruturado.
@@ -103,7 +103,7 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
 *   **[Juliusolsson05/openSEO](https://github.com/Juliusolsson05/openSEO)**
     *   **O que é:** Motor de conteúdo IA focado em SEO para blogs e landing pages.
     *   **Quando usar:** Para gerar conteúdo otimizado sem aspecto de "IA genérica".
-    *   **Licença:** 🟢 **MIT** (Perfeito para alimentar estratégias comerciais ou SaaS de conteúdo).
+    *   **Licença:** 🔴 **GPL v3**.
 *   **[ChrisCompton/omniroute](https://github.com/ChrisCompton/omniroute)**
     *   **O que é:** Gateway de IA para acesso a dezenas de provedores de LLMs.
     *   **Quando usar:** Para roteamento e fallback visando redução de custos de API.
@@ -111,15 +111,16 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
 *   **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)**
     *   **O que é:** Biblioteca para agentes gerarem vídeos via HTML programático.
     *   **Quando usar:** Para renderizar animações de alta qualidade de forma padronizada.
-    *   **Licença:** 🟢 **MIT** (Livre para uso comercial).
-*   **[virgiliojr/book-to-skill](https://github.com/virgiliojr/book-to-skill)**
+    *   **Licença:** 🟢 **Apache 2.0**.
+*   **[virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)**
     *   **O que é:** Ferramenta que converte livros técnicos e PDFs em "skills" para a IA.
     *   **Quando usar:** Para permitir que uma IA consulte regras e modelos mentais de autores específicos.
     *   **Licença:** 🟢 **MIT** (Pode usar para criar skills privadas).
-*   **[zoo-gg/text-to-cad](https://github.com/zoo-gg/text-to-cad)**
-    *   **O que é:** Infraestrutura para gerar ficheiros CAD (STEP/STL) através de *prompts* de texto.
-    *   **Quando usar:** Para prototipagem rápida de peças mecânicas.
-    *   **Licença:** 🟢 **MIT** (Código livre, mas atente-se se os modelos de IA por baixo têm restrições comerciais).
+*   **[KittyCAD/text-to-cad-ui](https://github.com/KittyCAD/text-to-cad-ui)**
+    *   **O que é:** Interface leve para interagir com a API Zoo Text-to-CAD; o projeto foi descontinuado e incorporado ao Design Studio.
+    *   **Quando usar:** Para consultar a antiga interface de prototipagem CAD baseada em prompts de texto.
+    *   **Licença:** 🟢 **MIT**.
+    *   **Status:** Arquivado no GitHub; funcionalidade migrada para o Design Studio.
 *   **[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)**
     *   **O que é:** Equipa de múltiplos agentes focada em análise de ações.
     *   **Quando usar:** Apenas para estudos sobre o comportamento de agentes no debate financeiro.
@@ -139,7 +140,7 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
 *   **[ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)**
     *   **O que é:** Uma ferramenta dedicada à auditoria independente de agentes de IA, desenhada para testar exaustivamente as respostas e as permissões destas automações.
     *   **Quando usar:** Para detetar preventivamente fugas de dados, falhas em regras ou ações não autorizadas antes de os clientes confiarem as suas operações ao agente, permitindo até a atribuição de uma classificação de desempenho (de A a F).
-    *   **Licença:** 🟢 **MIT** (Livre para utilizar nas suas validações de segurança).
+    *   **Licença:** 🟢 **Apache 2.0**.
 *   **[NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)**
     *   **O que é:** Framework Python para criar camadas semânticas e grafos de conhecimento sobre dados, ajudando agentes e LLMs a recuperar contexto e gerar consultas de forma mais determinística.
     *   **Quando usar:** Para estruturar dados e melhorar a recuperação de contexto e a explicabilidade em fluxos de trabalho com IA.
@@ -155,7 +156,7 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
 *   **[vivekn/sentiment](https://github.com/vivekn/sentiment)**
     *   **O que é:** Ferramenta de análise de sentimento com técnicas de aprendizado de máquina.
     *   **Quando usar:** Para experimentar classificação de sentimento em textos.
-    *   **Licença:** Não identificada no repositório.
+    *   **Licença:** 🟢 **BSD 2-Clause**.
 *   **[NicolasHug/Surprise](https://github.com/NicolasHug/Surprise)**
     *   **O que é:** Biblioteca Python para criar e avaliar sistemas de recomendação.
     *   **Quando usar:** Para testar algoritmos que recomendam itens a partir de avaliações de usuários.
@@ -224,26 +225,26 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
     *   **O que é:** Coleção de skills de marketing para agentes, cobrindo CRO, redação, SEO, analytics e crescimento.
     *   **Quando usar:** Para orientar agentes em tarefas de marketing e otimização de conversão.
     *   **Licença:** 🟢 **MIT**
-*   **[affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)**
-    *   **O que é:** Conjunto de agentes, skills, comandos, hooks e regras para fluxos de engenharia assistidos por IA.
+*   **[affaan-m/ECC](https://github.com/affaan-m/ECC)**
+    *   **O que é:** Sistema de otimização de desempenho para *agent harnesses*, com ferramentas e práticas para fluxos de desenvolvimento assistidos por IA.
     *   **Quando usar:** Para ampliar e padronizar o ambiente de agentes de programação.
     *   **Licença:** 🟢 **MIT**
 *   **[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)**
     *   **O que é:** Ferramenta para criar interfaces de linha de comando que agentes possam usar com aplicações existentes.
     *   **Quando usar:** Para automatizar programas que não oferecem uma API adequada ao agente.
-    *   **Licença:** Consulte a licença publicada no repositório.
+    *   **Licença:** 🟢 **Apache 2.0**.
 *   **[firecrawl/anydoc](https://github.com/firecrawl/anydoc)**
     *   **O que é:** Biblioteca Rust que converte documentos e planilhas em Markdown.
     *   **Quando usar:** Para preparar arquivos de formatos variados para busca, indexação ou RAG.
-    *   **Licença:** 🟢 **MIT**
+    *   **Licença:** 🟢 **MIT**.
 *   **[google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model)**
     *   **O que é:** Plugin para desenvolver especificações com contexto de projeto e revisões independentes por agentes.
     *   **Quando usar:** Para estruturar e revisar decisões de arquitetura antes de implementar mudanças.
-    *   **Licença:** 🟢 **Apache 2.0**
+    *   **Licença:** 🟢 **Apache 2.0**.
 *   **[goodnight000/api-anything](https://github.com/goodnight000/api-anything)**
     *   **O que é:** Ferramenta que transforma chamadas de sites em operações de API que agentes podem reutilizar.
     *   **Quando usar:** Para integrar agentes com sites que não oferecem uma API pública adequada.
-    *   **Licença:** 🟢 **MIT**
+    *   **Licença:** 🟢 **MIT**.
 *   **[magnitudedev/browser-agent](https://github.com/magnitudedev/browser-agent)**
     *   **O que é:** Agente de navegador open-source que usa visão computacional para navegar e interagir com páginas.
     *   **Quando usar:** Para automatizar tarefas web, testar interfaces ou operar fluxos sem API.
@@ -287,13 +288,13 @@ Repositórios com skills e extensões de instruções para agentes (Cursor, Clau
     *   **Licença:** 🟢 **MIT**
 *   **[vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)**
     *   **O que é:** Equipa o agente com um navegador real.
-    *   **Licença:** 🟢 **MIT**
+    *   **Licença:** 🟢 **Apache 2.0**.
 *   **[anthropics/skills (frontend-design)](https://github.com/anthropics/skills)**
     *   **O que é:** Biblioteca focada em UI/UX, espaçamento e tipografia de alto nível.
-    *   **Licença:** 🟢 **MIT**
+    *   **Licença:** Não identificada na raiz do repositório; confirme a licença aplicável a esta skill.
 *   **[cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)**
     *   **O que é:** Auditoria de segurança *step-by-step* liderada pela Cloudflare.
-    *   **Licença:** 🟢 **Apache 2.0**
+    *   **Licença:** 🟢 **MIT**.
 *   **[Nutlope/hallmark](https://github.com/Nutlope/hallmark)**
     *   **O que é:** Skill para remover traços estéticos que denunciam que um site foi feito por IA.
     *   **Licença:** 🟢 **MIT**
@@ -338,7 +339,7 @@ Repositórios com skills e extensões de instruções para agentes (Cursor, Clau
     *   **Licença:** 🟢 **CC0 (Domínio Público)**
 *   **[ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)**
     *   **O que é:** Lista de SaaS e APIs com bons *free tiers* para programadores.
-    *   **Licença:** 🟢 **MIT**
+    *   **Licença:** Não identificada na raiz do repositório.
 *   **[public-apis/public-apis](https://github.com/public-apis/public-apis)**
     *   **O que é:** Catálogo com milhares de APIs públicas.
     *   **Licença:** 🟢 **MIT**
@@ -397,8 +398,8 @@ Repositórios com skills e extensões de instruções para agentes (Cursor, Clau
 *   **[nholuongut/steg-cloak](https://github.com/nholuongut/steg-cloak)**
     *   **O que é:** Biblioteca JavaScript que oculta mensagens em texto usando caracteres Unicode invisíveis.
     *   **Quando usar:** Para estudar esteganografia textual e mecanismos de ocultação de mensagens.
-    *   **Licença:** Não identificada no repositório.
-*   **[gothinkster/realworld](https://github.com/realworld-apps/realworld)**
+    *   **Licença:** 🟢 **MIT**.
+*   **[realworld-apps/realworld](https://github.com/realworld-apps/realworld)**
     *   **O que é:** Especificação e implementações de referência de uma aplicação social, também conhecida como Conduit.
     *   **Quando usar:** Para comparar implementações full-stack de uma mesma aplicação em diferentes tecnologias.
     *   **Licença:** 🟢 **MIT**
@@ -454,6 +455,7 @@ Repositórios com skills e extensões de instruções para agentes (Cursor, Clau
     *   **O que é:** Aplicação e componentes para gerar códigos de autenticação de dois fatores.
     *   **Quando usar:** Como referência para autenticação baseada em TOTP em dispositivos móveis.
     *   **Licença:** 🟢 **Apache 2.0**
+    *   **Status:** Arquivado no GitHub.
 *   **[VROOM-Project/vroom](https://github.com/VROOM-Project/vroom)**
     *   **O que é:** Otimizador de rotas para problemas de roteamento de veículos.
     *   **Quando usar:** Para calcular rotas eficientes considerando veículos, tarefas e restrições.
@@ -464,7 +466,7 @@ Repositórios com skills e extensões de instruções para agentes (Cursor, Clau
     *   **Licença:** 🟢 **MIT**
 *   **[devlikeapro/waha](https://github.com/devlikeapro/waha)**
     *   **O que é:** WAHA (WhatsApp HTTP API) em formato REST.
-    *   **Licença:** 🟣 **Comercial / Open-Core** (Versão base é livre, mas funcionalidades pesadas exigem licença própria. Cuidado se criar um micro-SaaS focado apenas em disparos).
+    *   **Licença:** 🟢 **Apache 2.0** para o núcleo; funcionalidades Enterprise podem ter licença comercial própria.
 *   **[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)**
     *   **O que é:** Monitorização de uptime com interface fluida.
     *   **Licença:** 🟢 **MIT** (Pode usá-lo livremente ou cobrar para alojar painéis de estado para clientes).
@@ -473,22 +475,22 @@ Repositórios com skills e extensões de instruções para agentes (Cursor, Clau
     *   **Licença:** 🟢 **BSD-2-Clause**
 *   **[DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)**
     *   **O que é:** Serviço para registar nomes de domínio gratuitamente.
-    *   **Licença:** 🟢 **MIT** (O código é livre, os domínios seguem regras próprias da ICANN/registradores).
+    *   **Licença:** 🔴 **AGPL v3** (os domínios continuam sujeitos às regras da ICANN e dos registradores).
 *   **[reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists)**
     *   **O que é:** Verificador de emails assíncrono via SMTP.
-    *   **Licença:** 🔴 **AGPL v3** (Perfeito para uso interno. **Cuidado:** Se expor a API de verificação deste repositório na web como um serviço seu, terá de abrir o código-fonte desse serviço).
+    *   **Licença:** 🟢 **MIT**.
 *   **[pranshuparmar/witr](https://github.com/pranshuparmar/witr)**
     *   **O que é:** CLI para diagnosticar a árvore de arranque de processos.
-    *   **Licença:** 🟢 **MIT**
-*   **[kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)**
+    *   **Licença:** 🟢 **Apache 2.0**.
+*   **[nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)**
     *   **O que é:** Guias, recursos educativos e mapas (*roadmaps*) interativos e passo a passo criados para auxiliar os programadores no crescimento das suas carreiras, cobrindo vertentes como *front-end*, *back-end*, inteligência artificial e até o Claude Code.
-    *   **Licença:** 🟢 **MIT** (Conteúdo educacional de código aberto).
+    *   **Licença:** Não identificada no repositório.
 *   **[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)**
     *   **O que é:** Uma imensa lista curada contendo milhares de livros e recursos gratuitos sobre programação. Possui coleções separadas por língua, abrigando mais de 170 livros e 300 cursos apenas na secção dedicada a português.
     *   **Licença:** 🟢 **CC-BY-4.0** (Conteúdo educacional em licença livre de partilha).
 *   **[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)**
     *   **O que é:** Um repositório que serve de guia intensivo para quem pretende perceber como as aplicações em grande escala (apps gigantes) são desenhadas e como aguentam milhares (ou milhões) de utilizadores simultâneos.
-    *   **Licença:** 🟢 **MIT** (Excelente recurso teórico).
+    *   **Licença:** 🟢 **CC BY 4.0** (licença do conteúdo).
 *   **[jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)**
     *   **O que é:** Um guia compilado numa única página (com tradução para português) idealizado para ensinar de forma prática o uso de comandos e atalhos essenciais no terminal.
     *   **Licença:** 🟢 **CC-BY-SA** (Documentação livre e aberta à comunidade).
@@ -522,9 +524,9 @@ Repositórios com skills e extensões de instruções para agentes (Cursor, Clau
 
 Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vendendo as versões *cloud* pagas e utilizam licenças protetivas no código aberto para impedir que gigantes como a AWS (ou você) as transformem num SaaS concorrente de graça.
 
-*   **[calcom/cal.com](https://github.com/calcom/cal.com)**
-    *   **O que é:** Plataforma de agendamento de reuniões.
-    *   **Licença:** 🔴 **AGPL v3** (Para uso comercial interno é livre. Mas se fizer alterações e vender o acesso a clientes, terá de abrir o código-fonte público ou pagar a licença *Enterprise* deles).
+*   **[calcom/cal.diy](https://github.com/calcom/cal.diy)**
+    *   **O que é:** Plataforma open-source de agendamento de reuniões, atualmente apresentada como Cal.diy.
+    *   **Licença:** 🟢 **MIT**.
 *   **[refinedev/refine](https://github.com/refinedev/refine)**
     *   **O que é:** Meta-framework em React para construir CRMs e Dashboards.
     *   **Licença:** 🟢 **MIT** (100% permissivo para construir os seus SaaS comerciais).
@@ -546,16 +548,16 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
     *   **Licença:** 🟢 **Apache 2.0**
 *   **[fleetbase/fleetbase](https://github.com/fleetbase/fleetbase)**
     *   **O que é:** Sistema logístico (gestão de frotas e e-commerce).
-    *   **Licença:** 🟢 **Apache 2.0 / MIT**
+    *   **Licença:** 🔴 **AGPL v3**.
 *   **[n8n-io/n8n](https://github.com/n8n-io/n8n)**
     *   **O que é:** Ferramenta *self-hosted* de automação e fluxos de trabalho (estilo Zapier).
-    *   **Licença:** 🟣 **Sustainable Use License (Fair-code)** (Permite uso interno ilimitado, mas **estritamente proibido** de alojar e rentabilizar o n8n vendendo automações diretamente ao cliente final num modelo "SaaS de n8n").
+    *   **Licença:** 🟣 **Sustainable Use License (fair-code)**; restringe oferecer o próprio n8n como serviço hospedado ou gerido. Ficheiros Enterprise têm licença separada; consulte o LICENSE.
 *   **[twentyhq/twenty](https://github.com/twentyhq/twenty)**
     *   **O que é:** CRM de código aberto em Postgres.
-    *   **Licença:** 🔴 **AGPL v3** (Regra clássica: não pode hospedar o Twenty, vendê-lo como serviço sem pagar licenças, a não ser que mantenha o seu projeto *open source*).
+    *   **Licença:** 🔴 **AGPL v3** para a maior parte do código; ficheiros marcados Enterprise têm licença comercial e alguns pacotes usam MIT.
 *   **[chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)**
     *   **O que é:** Plataforma de atendimento de mensagens omnicanal.
-    *   **Licença:** 🟢 **MIT** (A base aberta é MIT, permitindo que instale num servidor comercial e ligue os seus próprios agentes de vendas com IA a ele sem problemas legais).
+    *   **Licença:** 🟢 **MIT** fora de `enterprise/`; a pasta Enterprise e componentes de terceiros têm termos próprios.
 *   **[mrifqidaffaaditya/WA-AKG](https://github.com/mrifqidaffaaditya/WA-AKG)**
     *   **O que é:** Um *gateway* e painel de controlo de WhatsApp *self-hosted*, desenvolvido com Next.js 15, Baileys e Prisma.
     *   **Quando usar:** Quando pretender gerir a sua própria infraestrutura de envio e receção de mensagens de WhatsApp, evitando os custos de APIs pagas de terceiros.
@@ -579,7 +581,7 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[papermark/papermark](https://github.com/papermark/papermark)**
     *   **O que é:** Plataforma para compartilhar documentos com analytics e salas de dados virtuais.
     *   **Quando usar:** Para enviar documentos a clientes e acompanhar visualizações.
-    *   **Licença:** Consulte as licenças do projeto; o GitHub não identificou uma licença SPDX única.
+    *   **Licença:** 🔴 **AGPL v3** fora de `ee/` e `app/(ee)/`; esses diretórios têm licença comercial separada.
 *   **[coollabsio/coolify](https://github.com/coollabsio/coolify)**
     *   **O que é:** Plataforma self-hosted para implantar aplicações, bancos de dados e serviços em servidores próprios.
     *   **Quando usar:** Para hospedar projetos e gerenciar implantações sem depender de um PaaS externo.
@@ -591,7 +593,7 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[windmill-labs/windmill](https://github.com/windmill-labs/windmill)**
     *   **O que é:** Plataforma code-first para workflows, aplicações internas e automações.
     *   **Quando usar:** Para transformar scripts em workflows e ferramentas internas com interface e agendamento.
-    *   **Licença:** Consulte as licenças publicadas pelo projeto; o GitHub não identificou uma licença SPDX única.
+    *   **Licença:** 🔴 **AGPL v3** para o código-fonte compilado sem a flag Enterprise; clientes e especificações também incluem ficheiros Apache 2.0. Recursos Enterprise e a Community Edition publicada têm termos comerciais adicionais.
 *   **[nextify-limited/saasfly](https://github.com/nextify-limited/saasfly)**
     *   **O que é:** Boilerplate open-source para iniciar aplicações SaaS com Next.js.
     *   **Quando usar:** Para começar um produto SaaS com estrutura inicial e funcionalidades comuns.
@@ -603,7 +605,7 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[gotify/server](https://github.com/gotify/server)**
     *   **O que é:** Servidor self-hosted para envio e recebimento de notificações em tempo real.
     *   **Quando usar:** Para encaminhar notificações de aplicações e serviços para clientes Gotify.
-    *   **Licença:** Não identificada pelo GitHub nesta revisão.
+    *   **Licença:** 🟢 **MIT**.
 *   **[go-vikunja/vikunja](https://github.com/go-vikunja/vikunja)**
     *   **O que é:** Gerenciador de tarefas self-hosted com listas, quadros e visualizações de projeto.
     *   **Quando usar:** Para organizar tarefas e projetos em uma instância sob seu controle.
@@ -619,11 +621,11 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[OpnForm/OpnForm](https://github.com/OpnForm/OpnForm)**
     *   **O que é:** Construtor open-source de formulários online.
     *   **Quando usar:** Para criar formulários e coletar respostas em uma aplicação própria.
-    *   **Licença:** Não identificada pelo GitHub nesta revisão.
+    *   **Licença:** 🔴 **AGPL v3** no núcleo; o diretório Enterprise tem licença separada.
 *   **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
     *   **O que é:** Plataforma de conhecimento com LLM para indexar documentos, responder perguntas e manter uma wiki.
     *   **Quando usar:** Para criar uma base de conhecimento pesquisável com recuperação RAG.
-    *   **Licença:** Consulte as licenças do projeto; o GitHub não identificou uma licença SPDX única.
+    *   **Licença:** 🟢 **MIT**; componentes de terceiros mantêm as respetivas licenças.
 *   **[benvinegar/counterscale](https://github.com/benvinegar/counterscale)**
     *   **O que é:** Plataforma de analytics web executada na própria conta Cloudflare.
     *   **Quando usar:** Para acompanhar métricas de tráfego sem depender de uma plataforma hospedada por terceiros.
@@ -640,17 +642,13 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
     *   **O que é:** Plataforma de publicação para sites, blogs e newsletters.
     *   **Quando usar:** Para publicar conteúdo e gerir assinaturas em uma plataforma própria.
     *   **Licença:** 🟢 **MIT**
-*   **[Requarks/wiki](https://github.com/Requarks/wiki)**
+*   **[requarks/wiki](https://github.com/requarks/wiki)**
     *   **O que é:** Plataforma de wiki e gestão de documentação.
     *   **Quando usar:** Para organizar documentação interna ou pública em uma instância própria.
     *   **Licença:** 🔴 **AGPL v3**
-*   **[meta/docusaurus](https://github.com/facebook/docusaurus)**
+*   **[meta/docusaurus](https://github.com/meta/docusaurus)**
     *   **O que é:** Gerador de sites estáticos com recursos voltados à documentação.
     *   **Quando usar:** Para criar e publicar documentação de projetos e produtos.
-    *   **Licença:** 🟢 **MIT**
-*   **[calcom/cal.diy](https://github.com/calendso/calendso)**
-    *   **O que é:** Aplicação de agendamento de reuniões e disponibilidade.
-    *   **Quando usar:** Para oferecer páginas de agendamento integradas a calendários.
     *   **Licença:** 🟢 **MIT**
 *   **[invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja)**
     *   **O que é:** Plataforma de faturamento, propostas e gestão de clientes.
@@ -663,7 +661,7 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[strapi/strapi](https://github.com/strapi/strapi)**
     *   **O que é:** CMS headless para criar APIs de conteúdo.
     *   **Quando usar:** Para gerir conteúdo separado da interface que o consome.
-    *   **Licença:** Não identificada nesta revisão; consulte as licenças publicadas pelo projeto.
+    *   **Licença:** 🟢 **MIT** na Community Edition; os componentes Enterprise têm licença separada.
 *   **[basir/amazona](https://github.com/basir/amazona)**
     *   **O que é:** Projeto de e-commerce de demonstração inspirado em uma loja online.
     *   **Quando usar:** Para estudar a implementação de uma loja full-stack em JavaScript.
@@ -679,7 +677,7 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[bitwarden/server](https://github.com/bitwarden/server)**
     *   **O que é:** Código do servidor da plataforma de gestão de senhas Bitwarden.
     *   **Quando usar:** Para estudar ou operar componentes de uma instalação Bitwarden própria.
-    *   **Licença:** 🔴 **AGPL v3**
+    *   **Licença:** 🔴 **AGPL v3** por padrão; ficheiros em `bitwarden_license/` usam Bitwarden License v1.
 *   **[dittofeed/dittofeed](https://github.com/dittofeed/dittofeed)**
     *   **O que é:** Plataforma open-source de engajamento de clientes para automatizar mensagens por e-mail, SMS, notificações push e outros canais.
     *   **Quando usar:** Para criar jornadas de comunicação transacional ou de marketing em uma infraestrutura própria.
@@ -693,15 +691,15 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 
 ## 🕷️ Extração de Dados & Automação
 
-*   **[D4vinci/scrapling](https://github.com/D4vinci/scrapling)**
-    *   **O que é:** Web scraping super-rápido focado em fugir a bloqueios.
-    *   **Licença:** 🟢 **MIT**
+*   **[D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)**
+    *   **O que é:** Framework Python de web scraping adaptativo, com recursos para lidar com mudanças no HTML e mecanismos anti-bot.
+    *   **Licença:** 🟢 **BSD 3-Clause**.
 *   **[gosom/google-maps-scraper](https://github.com/gosom/google-maps-scraper)**
     *   **O que é:** Raspa dados de comércio locais.
     *   **Licença:** 🟢 **MIT**
-*   **[fujiwarachoki/moneyprinterv2](https://github.com/fujiwarachoki/moneyprinterv2)**
+*   **[FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)**
     *   **O que é:** Geração autónoma de vídeos curtos em lote (TikTok/Shorts).
-    *   **Licença:** 🟢 **MIT**
+    *   **Licença:** 🔴 **AGPL v3**.
 *   **[harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)**
     *   **O que é:** Ferramenta que gera vídeos curtos a partir de um tema ou palavra-chave usando modelos de IA.
     *   **Quando usar:** Para automatizar a criação de vídeos curtos com roteiro, narração e imagens.
@@ -721,7 +719,7 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
     *   **O que é:** Painel para acompanhar dados de casos de COVID-19; o título recebido na lista (“Quiz Game Multiplayer”) não corresponde ao conteúdo deste repositório.
     *   **Quando usar:** Como referência de visualização de dados consumidos de uma API.
     *   **Licença:** Não identificada no repositório.
-*   **[keplergl/kepler.gl](https://github.com/uber/kepler.gl)**
+*   **[keplergl/kepler.gl](https://github.com/keplergl/kepler.gl)**
     *   **O que é:** Aplicação web de código aberto para visualização geoespacial de grandes conjuntos de dados.
     *   **Quando usar:** Para explorar dados geográficos em mapas interativos.
     *   **Licença:** 🟢 **MIT**
@@ -744,7 +742,7 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[iptv-org/iptv](https://github.com/iptv-org/iptv)**
     *   **O que é:** Coleção comunitária de listas de canais de televisão disponíveis publicamente.
     *   **Quando usar:** Para consultar listas IPTV organizadas por país e categoria.
-    *   **Licença:** CC0 / domínio público
+    *   **Licença:** 🟢 **Unlicense** (dedicação ao domínio público).
 *   **[lichess-org/lila](https://github.com/lichess-org/lila)**
     *   **O que é:** Código da plataforma de xadrez online Lichess.
     *   **Quando usar:** Para estudar ou hospedar uma plataforma de xadrez online.
@@ -788,7 +786,7 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[koshtaru/maestro](https://github.com/koshtaru/maestro)**
     *   **O que é:** Estúdio local de IA para criar imagens, música e vídeos a partir de prompts.
     *   **Quando usar:** Para experimentar geração de mídia com modelos executados localmente.
-    *   **Licença:** Não identificada pelo GitHub nesta revisão.
+    *   **Licença:** 🟣 **WanGP Non-Commercial Evaluation License 1.1** (uso não comercial para avaliação).
 *   **[JiaFeiMiao-K-Cat/DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio)**
     *   **O que é:** Aplicação multiplataforma para criar e gravar imagens visíveis na superfície de CDs, DVDs e Blu-ray.
     *   **Quando usar:** Para preparar imagens de disco e gravá-las em mídias ópticas compatíveis.
@@ -804,11 +802,11 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[felixrieseberg/windows95](https://github.com/felixrieseberg/windows95)**
     *   **O que é:** Emulador de Windows 95 empacotado como aplicação Electron multiplataforma.
     *   **Quando usar:** Para explorar um ambiente Windows 95 em caráter demonstrativo ou nostálgico.
-    *   **Licença:** Não identificada pelo GitHub nesta revisão.
+    *   **Licença:** 🟢 **MIT**.
 *   **[kando-menu/kando](https://github.com/kando-menu/kando)**
     *   **O que é:** Launcher de menus circulares acionados por atalhos e gestos.
     *   **Quando usar:** Para abrir rapidamente aplicativos e ações com menus radiais.
-    *   **Licença:** Não identificada pelo GitHub nesta revisão.
+    *   **Licença:** 🟢 **MIT** para o código; documentação, configuração e recursos podem ter termos próprios.
 *   **[puckeditor/puck](https://github.com/puckeditor/puck)**
     *   **O que é:** Editor visual de páginas para React, configurado com componentes personalizados.
     *   **Quando usar:** Para permitir que usuários montem páginas com blocos React da aplicação.
@@ -819,9 +817,10 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 ## 🎨 Design e UI
 
 *   **[nexu-io/open-design](https://github.com/nexu-io/open-design)**
-    *   **O que é:** Compilação de bibliotecas UI gratuitas.
-    *   **Licença:** 🟢 **MIT / CC0**
-*   **[danielgatis/REMBG](https://github.com/danielgatis/REMBG)**
+    *   **O que é:** Workspace de design colaborativo, local-first, com agente de IA para criar protótipos, animações, sites, aplicações, dashboards, apresentações, imagens e vídeos.
+    *   **Quando usar:** Para criar e iterar artefactos de design com uma equipa e agentes de IA num ambiente local-first.
+    *   **Licença:** 🟢 **Apache 2.0**.
+*   **[danielgatis/rembg](https://github.com/danielgatis/rembg)**
     *   **O que é:** Removedor de fundo de imagem via IA.
     *   **Licença:** 🟢 **MIT**
 *   **[senlindesign/taste-skill](https://github.com/senlindesign/taste-skill)**
@@ -856,7 +855,7 @@ A esmagadora maioria destes projetos utiliza a GPL/AGPL para garantir que contri
     *   **Licença:** 🔴 **AGPL v3**
 *   **[dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)**
     *   **O que é:** Gestor de senhas super-leve (API Bitwarden).
-    *   **Licença:** 🟠 **GPL v3**
+    *   **Licença:** 🔴 **AGPL v3** por padrão; o diretório `bitwarden_license/` usa Bitwarden License v1.
 *   **[anyproto/anytype-ts](https://github.com/anyproto/anytype-ts)**
     *   **O que é:** Alternativa focada em privacidade ao Notion.
     *   **Licença:** 🟣 **Any Source Available License** (Livre para uso próprio, restrita para SaaS de terceiros).
@@ -952,6 +951,7 @@ A esmagadora maioria destes projetos utiliza a GPL/AGPL para garantir que contri
     *   **O que é:** Ferramenta Python para coleta de dados públicos do Twitter/X.
     *   **Quando usar:** Para estudos e análises que respeitem os termos e regras da plataforma.
     *   **Licença:** 🟢 **MIT**
+    *   **Status:** Arquivado no GitHub; a integração com Twitter/X pode estar desatualizada.
 *   **[laramies/theHarvester](https://github.com/laramies/theHarvester)**
     *   **O que é:** Ferramenta OSINT para coletar e-mails, nomes, subdomínios e hosts.
     *   **Quando usar:** Para reconhecimento de fontes públicas em auditorias autorizadas.
@@ -984,6 +984,7 @@ A esmagadora maioria destes projetos utiliza a GPL/AGPL para garantir que contri
     *   **O que é:** Coleção de módulos PowerShell para testes de segurança e pós-exploração.
     *   **Quando usar:** Em laboratórios controlados e auditorias autorizadas.
     *   **Licença:** Não identificada pelo GitHub nesta revisão.
+    *   **Status:** Arquivado no GitHub.
 *   **[SpecterOps/BloodHound](https://github.com/SpecterOps/BloodHound)**
     *   **O que é:** Ferramenta para visualizar relações e caminhos de privilégio em ambientes de identidade.
     *   **Quando usar:** Para auditoria autorizada de Active Directory e Entra ID.
@@ -1053,6 +1054,7 @@ A esmagadora maioria destes projetos utiliza a GPL/AGPL para garantir que contri
     *   **O que é:** Ferramenta que busca endereços de e-mail associados a um domínio em mecanismos de busca.
     *   **Quando usar:** Para encontrar contatos publicados em fontes abertas.
     *   **Licença:** 🟠 **GPL v3**
+    *   **Status:** Arquivado no GitHub.
 *   **[kaymen99/sales-outreach-automation-langgraph](https://github.com/kaymen99/sales-outreach-automation-langgraph)**
     *   **O que é:** Fluxo de agentes LangGraph para pesquisa, qualificação e preparação de mensagens de outreach.
     *   **Quando usar:** Para estudar pipelines de prospecção personalizados com agentes de IA.
