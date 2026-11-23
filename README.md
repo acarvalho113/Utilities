@@ -140,6 +140,30 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
     *   **O que é:** Uma ferramenta dedicada à auditoria independente de agentes de IA, desenhada para testar exaustivamente as respostas e as permissões destas automações.
     *   **Quando usar:** Para detetar preventivamente fugas de dados, falhas em regras ou ações não autorizadas antes de os clientes confiarem as suas operações ao agente, permitindo até a atribuição de uma classificação de desempenho (de A a F).
     *   **Licença:** 🟢 **MIT** (Livre para utilizar nas suas validações de segurança).
+*   **[NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)**
+    *   **O que é:** Framework Python para criar camadas semânticas e grafos de conhecimento sobre dados, ajudando agentes e LLMs a recuperar contexto e gerar consultas de forma mais determinística.
+    *   **Quando usar:** Para estruturar dados e melhorar a recuperação de contexto e a explicabilidade em fluxos de trabalho com IA.
+    *   **Licença:** 🟢 **Apache 2.0**
+*   **[alibaba/open-code-review](https://github.com/alibaba/open-code-review)**
+    *   **O que é:** Ferramenta híbrida de revisão de código que combina verificações determinísticas e agentes LLM, com comentários por linha e regras para várias linguagens.
+    *   **Quando usar:** Para automatizar revisões de código e identificar problemas como falhas de segurança, concorrência e qualidade em pull requests.
+    *   **Licença:** 🟢 **Apache 2.0**
+*   **[botpress/botpress](https://github.com/botpress/botpress)**
+    *   **O que é:** Plataforma para criar e implantar chatbots e agentes de IA.
+    *   **Quando usar:** Para desenvolver assistentes conversacionais integrados a aplicações e serviços.
+    *   **Licença:** 🟢 **MIT**
+*   **[vivekn/sentiment](https://github.com/vivekn/sentiment)**
+    *   **O que é:** Ferramenta de análise de sentimento com técnicas de aprendizado de máquina.
+    *   **Quando usar:** Para experimentar classificação de sentimento em textos.
+    *   **Licença:** Não identificada no repositório.
+*   **[NicolasHug/Surprise](https://github.com/NicolasHug/Surprise)**
+    *   **O que é:** Biblioteca Python para criar e avaliar sistemas de recomendação.
+    *   **Quando usar:** Para testar algoritmos que recomendam itens a partir de avaliações de usuários.
+    *   **Licença:** 🟢 **BSD-3-Clause**
+*   **[tensorflow/tfjs-examples](https://github.com/tensorflow/tfjs-examples)**
+    *   **O que é:** Coleção de exemplos construídos com TensorFlow.js, incluindo tarefas de reconhecimento de imagens.
+    *   **Quando usar:** Para estudar ou iniciar projetos de aprendizado de máquina executados em JavaScript.
+    *   **Licença:** 🟢 **Apache 2.0**
 
 ---
 
@@ -190,6 +214,66 @@ Bibliotecas de instruções que pode instalar livremente na sua máquina para mo
 *   **[public-apis/public-apis](https://github.com/public-apis/public-apis)**
     *   **O que é:** Catálogo com milhares de APIs públicas.
     *   **Licença:** 🟢 **MIT**
+*   **[gothinkster/realworld](https://github.com/realworld-apps/realworld)**
+    *   **O que é:** Especificação e implementações de referência de uma aplicação social, também conhecida como Conduit.
+    *   **Quando usar:** Para comparar implementações full-stack de uma mesma aplicação em diferentes tecnologias.
+    *   **Licença:** 🟢 **MIT**
+*   **[sahat/hackathon-starter](https://github.com/sahat/hackathon-starter)**
+    *   **O que é:** Boilerplate para aplicações web em Node.js com componentes comuns de autenticação e integrações.
+    *   **Quando usar:** Para iniciar uma aplicação Node.js sem montar do zero a estrutura básica.
+    *   **Licença:** 🟢 **MIT**
+*   **[enaqx/awesome-react](https://github.com/enaqx/awesome-react)**
+    *   **O que é:** Lista curada de bibliotecas, ferramentas e recursos do ecossistema React.
+    *   **Quando usar:** Para descobrir ferramentas e exemplos para projetos React.
+    *   **Licença:** Não identificada no repositório.
+*   **[massCodeIO/massCode](https://github.com/massCodeIO/massCode)**
+    *   **O que é:** Workspace local para snippets, notas, requisições HTTP e ferramentas de desenvolvimento.
+    *   **Quando usar:** Para guardar e consultar conhecimento técnico e trechos de código no desktop, inclusive com suporte a agentes via MCP.
+    *   **Licença:** 🔴 **AGPL v3**
+*   **[hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)**
+    *   **O que é:** Ecossistema open-source para desenvolvimento e teste de APIs, com opções web, desktop e CLI.
+    *   **Quando usar:** Para enviar requisições e inspecionar APIs durante o desenvolvimento.
+    *   **Licença:** 🟢 **MIT**
+*   **[plivo/plivo-examples-node](https://github.com/plivo/plivo-examples-node)**
+    *   **O que é:** Exemplos em Node.js para integrar com as APIs da Plivo.
+    *   **Quando usar:** Para consultar exemplos de comunicação programática, como envio de SMS.
+    *   **Licença:** Não identificada no repositório.
+*   **[adrianhajdin/project_mern_memories](https://github.com/adrianhajdin/project_mern_memories)**
+    *   **O que é:** Aplicação social em MERN para publicar eventos e memórias.
+    *   **Quando usar:** Como referência de aplicação full-stack com React, Node.js, Express e MongoDB.
+    *   **Licença:** Não identificada no repositório.
+*   **[adrianhajdin/project_chat_application](https://github.com/adrianhajdin/project_chat_application)**
+    *   **O que é:** Aplicação de chat em tempo real com React, Node.js, Express e Socket.IO.
+    *   **Quando usar:** Para estudar comunicação em tempo real em uma aplicação web full-stack.
+    *   **Licença:** Não identificada no repositório.
+*   **[JL978/spotify-clone-client](https://github.com/JL978/spotify-clone-client)**
+    *   **O que é:** Cliente React que reproduz partes da interface e da experiência do Spotify usando suas APIs.
+    *   **Quando usar:** Para estudar integração de uma aplicação React com a Spotify API e Web Playback SDK.
+    *   **Licença:** 🟢 **MIT**
+*   **[muhammed/mini-player](https://github.com/muhammed/mini-player)**
+    *   **O que é:** Mini player de música com interface web.
+    *   **Quando usar:** Como referência para implementar controles e visualização de reprodução de áudio.
+    *   **Licença:** Não identificada no repositório.
+*   **[CleverProgrammers/zoom-clone](https://github.com/CleverProgrammers/zoom-clone)**
+    *   **O que é:** Projeto demonstrativo de uma aplicação de videoconferência inspirada no Zoom.
+    *   **Quando usar:** Para explorar a estrutura de uma aplicação de comunicação por vídeo.
+    *   **Licença:** Não identificada no repositório.
+*   **[oldboyxx/jira_clone](https://github.com/oldboyxx/jira_clone)**
+    *   **O que é:** Clone simplificado do Jira com cliente React e API em Node.js/TypeScript.
+    *   **Quando usar:** Como referência para interfaces de gestão de projetos e tarefas.
+    *   **Licença:** 🟢 **MIT**
+*   **[rcdexta/react-trello](https://github.com/rcdexta/react-trello)**
+    *   **O que é:** Componentes para incorporar um quadro Kanban em aplicações React.
+    *   **Quando usar:** Para adicionar um quadro de tarefas personalizável a uma aplicação.
+    *   **Licença:** 🟢 **MIT**
+*   **[google/google-authenticator](https://github.com/google/google-authenticator)**
+    *   **O que é:** Aplicação e componentes para gerar códigos de autenticação de dois fatores.
+    *   **Quando usar:** Como referência para autenticação baseada em TOTP em dispositivos móveis.
+    *   **Licença:** 🟢 **Apache 2.0**
+*   **[VROOM-Project/vroom](https://github.com/VROOM-Project/vroom)**
+    *   **O que é:** Otimizador de rotas para problemas de roteamento de veículos.
+    *   **Quando usar:** Para calcular rotas eficientes considerando veículos, tarefas e restrições.
+    *   **Licença:** 🟢 **BSD-2-Clause**
 *   **[axllent/mailpit](https://github.com/axllent/mailpit)**
     *   **O que é:** Ferramenta de teste de e-mail e SMTP com interface web e API para desenvolvedores.
     *   **Quando usar:** Para capturar e inspecionar localmente os e-mails enviados pela aplicação durante o desenvolvimento e os testes.
@@ -263,6 +347,10 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[payloadcms/payload](https://github.com/payloadcms/payload)**
     *   **O que é:** Headless CMS moderno com base em Node e React.
     *   **Licença:** 🟢 **MIT** (Anteriormente era restritivo, mas agora é livre para uso comercial irrestrito).
+*   **[vercel/next-forge](https://github.com/vercel/next-forge)**
+    *   **O que é:** Template de monorepo com Turborepo para iniciar aplicações Next.js prontas para produção.
+    *   **Quando usar:** Para começar um SaaS ou aplicação web Next.js com uma estrutura de monorepo já preparada.
+    *   **Licença:** 🟢 **MIT**
 *   **[supabase/supabase](https://github.com/supabase/supabase)**
     *   **O que é:** A alternativa ao Firebase com Postgres.
     *   **Licença:** 🟢 **Apache 2.0** (Alojamento e comercialização do seu código são totalmente seguros).
@@ -304,6 +392,50 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
     *   **O que é:** Plataforma de entrega de e-mails para envio e receção, que pode ser alojada na própria infraestrutura.
     *   **Quando usar:** Para operar um serviço próprio de entrega de e-mails transacionais ou de entrada.
     *   **Licença:** 🟢 **MIT**
+*   **[TryGhost/Ghost](https://github.com/TryGhost/Ghost)**
+    *   **O que é:** Plataforma de publicação para sites, blogs e newsletters.
+    *   **Quando usar:** Para publicar conteúdo e gerir assinaturas em uma plataforma própria.
+    *   **Licença:** 🟢 **MIT**
+*   **[Requarks/wiki](https://github.com/Requarks/wiki)**
+    *   **O que é:** Plataforma de wiki e gestão de documentação.
+    *   **Quando usar:** Para organizar documentação interna ou pública em uma instância própria.
+    *   **Licença:** 🔴 **AGPL v3**
+*   **[meta/docusaurus](https://github.com/facebook/docusaurus)**
+    *   **O que é:** Gerador de sites estáticos com recursos voltados à documentação.
+    *   **Quando usar:** Para criar e publicar documentação de projetos e produtos.
+    *   **Licença:** 🟢 **MIT**
+*   **[calcom/cal.diy](https://github.com/calendso/calendso)**
+    *   **O que é:** Aplicação de agendamento de reuniões e disponibilidade.
+    *   **Quando usar:** Para oferecer páginas de agendamento integradas a calendários.
+    *   **Licença:** 🟢 **MIT**
+*   **[invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja)**
+    *   **O que é:** Plataforma de faturamento, propostas e gestão de clientes.
+    *   **Quando usar:** Para administrar cobranças e documentos comerciais em uma instalação própria.
+    *   **Licença:** Elastic License 2.0 (source-available)
+*   **[cortezaproject/corteza](https://github.com/cortezaproject/corteza)**
+    *   **O que é:** Plataforma low-code para aplicações de negócio, incluindo CRM.
+    *   **Quando usar:** Para montar soluções empresariais personalizadas com pouco código.
+    *   **Licença:** 🟢 **Apache 2.0**
+*   **[strapi/strapi](https://github.com/strapi/strapi)**
+    *   **O que é:** CMS headless para criar APIs de conteúdo.
+    *   **Quando usar:** Para gerir conteúdo separado da interface que o consome.
+    *   **Licença:** Não identificada nesta revisão; consulte as licenças publicadas pelo projeto.
+*   **[basir/amazona](https://github.com/basir/amazona)**
+    *   **O que é:** Projeto de e-commerce de demonstração inspirado em uma loja online.
+    *   **Quando usar:** Para estudar a implementação de uma loja full-stack em JavaScript.
+    *   **Licença:** Não identificada no repositório.
+*   **[metabase/metabase](https://github.com/metabase/metabase)**
+    *   **O que é:** Plataforma de business intelligence e exploração visual de dados.
+    *   **Quando usar:** Para criar consultas, análises e dashboards sobre bases de dados.
+    *   **Licença:** AGPL v3 no núcleo; componentes podem ter licenças diferentes.
+*   **[grafana/grafana](https://github.com/grafana/grafana)**
+    *   **O que é:** Plataforma de dashboards, visualização e observabilidade.
+    *   **Quando usar:** Para acompanhar métricas, logs e dados de diferentes fontes.
+    *   **Licença:** 🔴 **AGPL v3**
+*   **[bitwarden/server](https://github.com/bitwarden/server)**
+    *   **O que é:** Código do servidor da plataforma de gestão de senhas Bitwarden.
+    *   **Quando usar:** Para estudar ou operar componentes de uma instalação Bitwarden própria.
+    *   **Licença:** 🔴 **AGPL v3**
 
 ---
 
@@ -325,6 +457,50 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
     *   **O que é:** Uma aplicação de ambiente de trabalho de código aberto (disponível para Windows, macOS e Linux) que permite transferir cursos online (Udemy, Hotmart, Kiwify, etc.), vídeos, áudio e livros de mais de 1800 plataformas de forma nativa e sem a utilização da linha de comandos.
     *   **Quando usar:** Para arquivar localmente materiais de estudo e média para acesso offline, garantindo que os ficheiros permanecem no seu computador e podem ser reproduzidos diretamente na aplicação.
     *   **Licença:** 🟠 **GPL v3** (Perfeito para uso próprio, mas se modificar a aplicação para a distribuir, terá de fazê-lo sob a mesma licença aberta).
+*   **[adrianhajdin/project_weather_app](https://github.com/adrianhajdin/project_weather_app)**
+    *   **O que é:** Aplicação web de previsão do tempo construída como projeto demonstrativo.
+    *   **Quando usar:** Para estudar integração de APIs de clima em uma interface web.
+    *   **Licença:** Não identificada no repositório.
+*   **[adrianhajdin/project_corona_tracker](https://github.com/adrianhajdin/project_corona_tracker)**
+    *   **O que é:** Painel para acompanhar dados de casos de COVID-19; o título recebido na lista (“Quiz Game Multiplayer”) não corresponde ao conteúdo deste repositório.
+    *   **Quando usar:** Como referência de visualização de dados consumidos de uma API.
+    *   **Licença:** Não identificada no repositório.
+*   **[keplergl/kepler.gl](https://github.com/uber/kepler.gl)**
+    *   **O que é:** Aplicação web de código aberto para visualização geoespacial de grandes conjuntos de dados.
+    *   **Quando usar:** Para explorar dados geográficos em mapas interativos.
+    *   **Licença:** 🟢 **MIT**
+*   **[adrianhajdin/project_cryptoverse](https://github.com/adrianhajdin/project_cryptoverse)**
+    *   **O que é:** Dashboard demonstrativo com informações sobre criptomoedas.
+    *   **Quando usar:** Para estudar interfaces que consomem dados de mercado e APIs de criptomoedas.
+    *   **Licença:** Não identificada no repositório.
+*   **[adrianhajdin/project_travel_advisor](https://github.com/adrianhajdin/project_travel_advisor)**
+    *   **O que é:** Aplicação de descoberta de lugares e estabelecimentos para viagens.
+    *   **Quando usar:** Para estudar mapas e busca de locais em uma aplicação React.
+    *   **Licença:** 🟢 **MIT**
+*   **[keen/keen-js](https://github.com/keen/keen-js)**
+    *   **O que é:** SDKs JavaScript para enviar e consultar eventos no Keen, além de visualizações.
+    *   **Quando usar:** Para integrar coleta e visualização de eventos em aplicações web.
+    *   **Licença:** 🟢 **MIT**
+*   **[apache/superset](https://github.com/apache/superset)**
+    *   **O que é:** Plataforma de exploração de dados e criação de dashboards de business intelligence.
+    *   **Quando usar:** Para consultar fontes de dados e compartilhar visualizações analíticas.
+    *   **Licença:** 🟢 **Apache 2.0**
+*   **[iptv-org/iptv](https://github.com/iptv-org/iptv)**
+    *   **O que é:** Coleção comunitária de listas de canais de televisão disponíveis publicamente.
+    *   **Quando usar:** Para consultar listas IPTV organizadas por país e categoria.
+    *   **Licença:** CC0 / domínio público
+*   **[lichess-org/lila](https://github.com/lichess-org/lila)**
+    *   **O que é:** Código da plataforma de xadrez online Lichess.
+    *   **Quando usar:** Para estudar ou hospedar uma plataforma de xadrez online.
+    *   **Licença:** 🔴 **AGPL v3**
+*   **[tldraw/tldraw](https://github.com/tldraw/tldraw)**
+    *   **O que é:** SDK e ferramentas para criar experiências de quadro branco e desenho colaborativo.
+    *   **Quando usar:** Para incorporar um canvas interativo em uma aplicação.
+    *   **Licença:** Licença tldraw (source-available; consulte os termos do projeto).
+*   **[flatlogic/sing-app-react](https://github.com/flatlogic/sing-app-react)**
+    *   **O que é:** Template de dashboard administrativo em React.
+    *   **Quando usar:** Para iniciar painéis de administração com componentes e páginas de exemplo.
+    *   **Licença:** 🟢 **MIT**
 
 ---
 
