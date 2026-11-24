@@ -169,6 +169,18 @@ Ferramentas para rodar, construir e integrar modelos de inteligência artificial
     *   **O que é:** Agente de IA extensível da Nous Research, com ferramentas, memória e suporte a diferentes modelos.
     *   **Quando usar:** Para explorar um agente pessoal que executa tarefas e pode adaptar habilidades ao uso.
     *   **Licença:** 🟢 **MIT**
+*   **[mvschwarz/openrig](https://github.com/mvschwarz/openrig)**
+    *   **O que é:** Sistema para definir e executar equipes persistentes de agentes de programação, configuradas em YAML.
+    *   **Quando usar:** Para coordenar diferentes agentes e harnesses de programação como uma equipe organizada.
+    *   **Licença:** 🟢 **Apache 2.0**
+*   **[lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus)**
+    *   **O que é:** Interface para gerar imagens com modelos Stable Diffusion, com foco em simplificar a configuração e os controles.
+    *   **Quando usar:** Para criar imagens a partir de prompts sem montar manualmente um fluxo complexo de geração.
+    *   **Licença:** 🔴 **GPL v3**
+*   **[openai/whisper](https://github.com/openai/whisper)**
+    *   **O que é:** Modelo e código para reconhecimento automático de fala e transcrição multilíngue.
+    *   **Quando usar:** Para transcrever áudio ou integrar reconhecimento de fala em aplicações.
+    *   **Licença:** 🟢 **MIT**
 *   **[anomalyco/opencode](https://github.com/anomalyco/opencode)**
     *   **O que é:** Agente de programação open-source que pode ser usado pelo terminal ou interface gráfica.
     *   **Quando usar:** Para trabalhar em código com assistência de modelos de IA.
@@ -329,6 +341,54 @@ Repositórios com skills e extensões de instruções para agentes (Cursor, Clau
     *   **O que é:** Skill que audita uma base de código e cria planos de implementação para outros agentes executarem.
     *   **Quando usar:** Para reservar o modelo mais capaz para análise e planejamento, deixando a execução para modelos mais econômicos.
     *   **Licença:** 🟢 **MIT**
+*   **[expo/skills](https://github.com/expo/skills)**
+    *   **O que é:** Skills oficiais da Expo para orientar agentes de IA em desenvolvimento, publicação, atualização e depuração de aplicativos Expo.
+    *   **Quando usar:** Para ajudar agentes a aplicar APIs, ferramentas e práticas recomendadas do ecossistema Expo.
+    *   **Licença:** 🟢 **MIT**
+*   **[latent-spaces/brag](https://github.com/latent-spaces/brag)**
+    *   **O que é:** Skill que transforma um projeto em um vídeo curto de lançamento; inclui a variante mais enxuta `/brag-slim`.
+    *   **Quando usar:** Para criar vídeos de apresentação de projetos com animação, música e texto para divulgação.
+    *   **Licença:** 🟢 **MIT**
+*   **[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)**
+    *   **O que é:** Ferramenta e skill que conecta agentes a fontes da web e plataformas como X, Reddit, YouTube e GitHub.
+    *   **Quando usar:** Para configurar acesso a pesquisa e leitura em plataformas que não oferecem uma integração simples ao agente.
+    *   **Licença:** 🟢 **MIT**
+*   **[akinduroifedayo/Hermes-iOS-sim](https://github.com/akinduroifedayo/Hermes-iOS-sim)**
+    *   **O que é:** Plugin para compilar, abrir e iterar visualmente em aplicativos iOS nativos pelo Hermes Desktop e pelo Simulator do Xcode.
+    *   **Quando usar:** Para desenvolver e revisar interfaces iOS com builds e previews locais no macOS.
+    *   **Licença:** 🟢 **MIT**
+*   **[okyssta/hermes-obsidian-memory](https://github.com/okyssta/hermes-obsidian-memory)**
+    *   **O que é:** Plugin do Hermes para consultar, pesquisar e editar notas de cofres Obsidian em uma interface desktop ou web.
+    *   **Quando usar:** Para navegar pelas notas e relações de um cofre Obsidian diretamente no Hermes.
+    *   **Licença:** Não identificada no repositório.
+*   **[guberm/hermes-gmail-desktop-plugin](https://github.com/guberm/hermes-gmail-desktop-plugin)**
+    *   **O que é:** Pacote de plugin que integra uma interface Gmail ao Hermes Desktop e ao dashboard.
+    *   **Quando usar:** Para consultar a implementação de uma integração de e-mail na interface desktop do Hermes.
+    *   **Licença:** Não identificada no repositório.
+*   **[aydnOktay/hermes-done-bell-](https://github.com/aydnOktay/hermes-done-bell-)**
+    *   **O que é:** Plugin do Hermes que avisa quando uma tarefa termina, com notificação do sistema e toque opcional.
+    *   **Quando usar:** Para receber um alerta quando o agente concluir uma resposta ou estiver aguardando aprovação.
+    *   **Licença:** 🟢 **MIT**
+*   **[thealps01-netizen/agent-station](https://github.com/thealps01-netizen/agent-station)**
+    *   **O que é:** Plugin somente de leitura para acompanhar agentes, subagentes, comandos em segundo plano e alterações de arquivos no Hermes Desktop.
+    *   **Quando usar:** Para inspecionar a atividade e o histórico de edição de um chat do Hermes.
+    *   **Licença:** 🟢 **MIT**
+*   **[piyushpradhan/flightlog](https://github.com/piyushpradhan/flightlog)**
+    *   **O que é:** Plugin que registra etapas de execução do Hermes Agent e sinaliza tarefas que terminaram sem erro aparente, mas podem ter falhado.
+    *   **Quando usar:** Para investigar execuções automatizadas e identificar erros, repetições ou desvios de comportamento.
+    *   **Licença:** 🟢 **MIT**
+*   **[mistrysiddh/web-crawler-spider](https://github.com/mistrysiddh/web-crawler-spider)**
+    *   **O que é:** Plugin visual para Hermes Desktop que reage a eventos da interface e à atividade de agentes e subagentes.
+    *   **Quando usar:** Para acompanhar visualmente o trabalho do Hermes e sinalizações de comandos arriscados.
+    *   **Licença:** 🟢 **MIT**
+*   **[irfansofyana/hermes-blogwatcher](https://github.com/irfansofyana/hermes-blogwatcher)**
+    *   **O que é:** Plugin para ler e gerenciar inscrições e artigos do Blogwatcher no Hermes Desktop e no dashboard web.
+    *   **Quando usar:** Para acompanhar artigos não lidos e gerar resumos sob demanda no Hermes.
+    *   **Licença:** Não identificada no repositório.
+*   **[austinpickett/hermes-monitoring-dashboard](https://github.com/austinpickett/hermes-monitoring-dashboard)**
+    *   **O que é:** Plugin de monitoramento com métricas de hardware, sessões do Hermes, uso de tokens e widgets configuráveis.
+    *   **Quando usar:** Para acompanhar recursos do computador e atividade do Hermes em um painel desktop.
+    *   **Licença:** Não identificada no repositório.
 
 ---
 
@@ -686,6 +746,18 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
     *   **O que é:** CRM open-source para gerenciar leads, contatos, oportunidades e atividades comerciais.
     *   **Quando usar:** Para acompanhar o processo de vendas em uma instância própria.
     *   **Licença:** 🔴 **AGPL v3**
+*   **[ArnasDon/wacrm](https://github.com/ArnasDon/wacrm)**
+    *   **O que é:** CRM auto-hospedável para WhatsApp Business, com caixa de entrada compartilhada, contatos, funis de vendas, campanhas e automações.
+    *   **Quando usar:** Para organizar conversas comerciais do WhatsApp e acompanhar vendas em uma instalação própria.
+    *   **Licença:** 🟢 **MIT**
+*   **[instantdb/instant](https://github.com/instantdb/instant)**
+    *   **O que é:** Backend para aplicações com autenticação, permissões, armazenamento, presença e sincronização de dados em tempo real.
+    *   **Quando usar:** Para acelerar aplicações web e projetos construídos com assistência de IA sem montar cada serviço separadamente.
+    *   **Licença:** 🟢 **Apache 2.0**
+*   **[nhost/nhost](https://github.com/nhost/nhost)**
+    *   **O que é:** Plataforma open-source baseada em PostgreSQL, Hasura GraphQL, autenticação, armazenamento e funções serverless.
+    *   **Quando usar:** Como backend gerenciado ou auto-hospedável para aplicações que precisam de APIs GraphQL e serviços integrados.
+    *   **Licença:** 🟢 **MIT**
 
 ---
 
@@ -811,6 +883,10 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
     *   **O que é:** Editor visual de páginas para React, configurado com componentes personalizados.
     *   **Quando usar:** Para permitir que usuários montem páginas com blocos React da aplicação.
     *   **Licença:** 🟢 **MIT**
+*   **[yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)**
+    *   **O que é:** Ferramenta de linha de comando para baixar áudio e vídeo de diversos sites.
+    *   **Quando usar:** Para arquivar ou processar mídia que você tem autorização para baixar.
+    *   **Licença:** 🟢 **Unlicense**
 
 ---
 
@@ -839,6 +915,10 @@ Atenção especial nesta categoria, pois muitas destas empresas sobrevivem vende
 *   **[meta/astryx](https://github.com/meta/astryx)**
     *   **O que é:** Sistema de design personalizável para React, com componentes acessíveis, temas e ferramentas para desenvolvedores e agentes de IA.
     *   **Quando usar:** Para construir interfaces React com componentes e temas prontos, mantendo a possibilidade de personalizar o estilo.
+    *   **Licença:** 🟢 **MIT**
+*   **[founded-labs/react-native-reusables](https://github.com/founded-labs/react-native-reusables)**
+    *   **O que é:** Coleção de componentes personalizáveis que leva a abordagem do shadcn/ui ao React Native.
+    *   **Quando usar:** Para montar interfaces de aplicativos React Native com componentes prontos e adaptáveis.
     *   **Licença:** 🟢 **MIT**
 
 ---
@@ -886,6 +966,14 @@ A esmagadora maioria destes projetos utiliza a GPL/AGPL para garantir que contri
     *   **O que é:** Scripts de automação para containers LinuxServer.io de ferramentas como Sonarr, Radarr e Lidarr.
     *   **Quando usar:** Para automatizar tarefas de manutenção e configuração em um servidor de mídia self-hosted.
     *   **Licença:** 🔴 **GPL v3**
+*   **[plausible/community-edition](https://github.com/plausible/community-edition)**
+    *   **O que é:** Exemplo de configuração Docker Compose para hospedar a edição comunitária do Plausible Analytics.
+    *   **Quando usar:** Para consultar a implantação auto-hospedada do Plausible; este repositório reúne a configuração de implantação.
+    *   **Licença:** 🟢 **MIT**
+*   **[AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)**
+    *   **O que é:** Workspace colaborativo open-source para projetos, wikis e documentos, com foco em controle dos dados.
+    *   **Quando usar:** Como alternativa auto-hospedável ao Notion para organizar conhecimento e trabalho em equipe.
+    *   **Licença:** 🔴 **AGPL v3**
 
 ---
 
@@ -996,6 +1084,10 @@ A esmagadora maioria destes projetos utiliza a GPL/AGPL para garantir que contri
 *   **[openai/codex-security](https://github.com/openai/codex-security)**
     *   **O que é:** CLI e SDK TypeScript para encontrar, investigar, validar e corrigir vulnerabilidades em código.
     *   **Quando usar:** Para automatizar análises de segurança em repositórios, alterações Git ou pipelines de CI.
+    *   **Licença:** 🟢 **Apache 2.0**
+*   **[NousResearch/hermes-official-plugins (hermes-security)](https://github.com/NousResearch/hermes-official-plugins/tree/main/hermes-security)**
+    *   **O que é:** Plugin oficial do Hermes Agent que analisa um repositório em busca de vulnerabilidades e documenta evidências e cobertura.
+    *   **Quando usar:** Para revisar código com modos de análise padrão, aprofundado ou focado em diferenças.
     *   **Licença:** 🟢 **Apache 2.0**
 
 ---
